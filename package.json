@@ -8,8 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "export": "next export"
   },
   "devDependencies": {
     "@types/react": "^17.0.30",
