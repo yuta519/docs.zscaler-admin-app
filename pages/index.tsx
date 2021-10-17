@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <p>
+            <p className="min-h-screen py--0 px-2 flex flex-col justify-center items-center">
                 <Typography variant="h4" component="div" gutterBottom>
                     About Me
                 </Typography>
