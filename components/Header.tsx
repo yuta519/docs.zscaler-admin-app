@@ -3,6 +3,11 @@
 export default function Header() {
     return (
         <>
+            <header>
+                <title>
+                    Yuta Kawamura
+                </title>
+            </header>
             <nav className="bg-white shadow-lg">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex justify-between">
