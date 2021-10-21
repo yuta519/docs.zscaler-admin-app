@@ -1,6 +1,6 @@
-// import Image from "next/image"
-import Header from '@/components/Header'
 import AboutMe from '@/components/about_me'
+import Careers from '@/components/Careers'
+import Header from '@/components/Header'
 import Likes from '@/components/Likes'
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
             <Header />
             <AboutMe />
             <Likes />
+            <Careers />
 
             {/* <div className="bg-gray-100 container mx-auto px-8"> */}
 
