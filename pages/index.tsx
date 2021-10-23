@@ -1,4 +1,4 @@
-import AboutMe from '@/components/about_me'
+import AboutMe from '@/components/AboutMe'
 import Careers from '@/components/Careers'
 import Header from '@/components/Header'
 import Likes from '@/components/Likes'

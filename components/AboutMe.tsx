@@ -7,7 +7,7 @@ export default function AboutMe() {
     return (
         <div className="container mx-auto mt-8 px-8">
 
-            <h3 className="font-mono text-2xl font-bold">About Me</h3>
+            <h3 className="font-mono text-2xl font-bold">Who is Yuta Kawamura</h3>
             <hr className="my-2" />
 
             <ul className="list-disc">
