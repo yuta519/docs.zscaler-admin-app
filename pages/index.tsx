@@ -13,7 +13,7 @@ export default function Home() {
 
             {/* <div className="bg-gray-100 container mx-auto px-8"> */}
 
-            <div className="container mx-auto mt-8 px-8">
+            {/* <div className="container mx-auto mt-8 px-8">
                 <h3 className="font-mono text-2xl font-bold">About Me</h3>
                 <hr className="my-2" />
 
@@ -31,7 +31,7 @@ export default function Home() {
                         4
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <a className="justify-center items-center bg-black text-white font-bold py-5 px-10 rounded-full shadow-xl hover:bg-gray-dark hover:text-white">
                 <span className="text-lg font-light">トップに戻る</span>
             </a> */}

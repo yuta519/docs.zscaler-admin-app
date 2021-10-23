@@ -46,9 +46,10 @@ export default function Careers() {
                                     </div>
                                 </div>
                                 <div className="bg-green-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-                                    <h3 className="font-semibold text-lg mb-1">Quick Work (Side Work)</h3>
+                                    <h3 className="font-semibold text-lg mb-1">QuickWork, Inc. (Side Work)</h3>
                                     <ul className="text-sm mb-1">
-                                        <li>as Backend Engineer - Python / FastAPI / Pytest / SqlAlchemy / PostgreSQL</li>
+                                        <li>Worked on web service as Backend Engineer</li>
+                                        <li>Using server side skills like Python / FastAPI / Pytest / SqlAlchemy / PostgreSQL</li>
                                     </ul>
                                     <p className="leading-tight text-justify w-full">
                                         July 2021 ~
@@ -66,10 +67,11 @@ export default function Careers() {
                                     </div>
                                 </div>
                                 <div className="bg-green-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-                                    <h3 className="font-semibold text-lg mb-1">Softbank (Main Work)</h3>
+                                    <h3 className="font-semibold text-lg mb-1">SoftBank Corp (Main Work)</h3>
                                     <ul className="text-sm mb-1">
-                                        <li>as Backend Engineer - Python / SqlAlchemy / PostgreSQL</li>
-                                        <li>as Infra Engineer - Linux</li>
+                                        <li>Worked on MSS (Managed Security Service) as service development engineer</li>
+                                        <li>Using server side skills like Python / PostgreSQL / Linux</li>
+                                        <li>Also experienced some security devices like Zscaler / PaloAlto / Rapid7 / Proofpoint ITM / Fortinet</li>
                                     </ul>
                                     <p className="leading-tight text-justify">
                                         January 2021 ~
@@ -77,23 +79,6 @@ export default function Careers() {
                                 </div>
                             </div>
 
-                            {/* <div className="flex md:contents">
-                                <div className="col-start-2 col-end-4 mr-10 md:mx-auto relative">
-                                    <div className="h-full w-6 flex items-center justify-center">
-                                        <div className="h-full w-1 bg-red-500 pointer-events-none"></div>
-                                    </div>
-                                    <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow text-center">
-                                        <i className="fas fa-times-circle text-white"></i>
-                                    </div>
-                                </div>
-                                <div className="bg-red-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-                                    <h3 className="font-semibold text-lg mb-1 text-gray-50">Cancelled</h3>
-                                    <p className="leading-tight text-justify">
-                                        Customer cancelled the order
-                                    </p>
-                                </div>
-                            </div>
- */}
                             <div className="flex md:contents">
                                 <div className="col-start-2 col-end-4 mr-10 md:mx-auto relative">
                                     <div className="h-full w-6 flex items-center justify-center">
@@ -104,7 +89,7 @@ export default function Careers() {
                                     </div>
                                 </div>
                                 <div className="bg-gray-300 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-                                    <h3 className="font-semibold text-lg mb-1 text-gray-400">CTC</h3>
+                                    <h3 className="font-semibold text-lg mb-1 text-gray-400">ITOCHU Techno-Solutions Corporation</h3>
                                     <ul className="text-sm mb-1 text-gray-400">
                                         <li>as Infra Engineer - VMware / AWS / Trend Micro / Zscaler / Splunk</li>
                                         <li>as Sales Engineer - Trend Micro / Zscaler</li>
@@ -125,12 +110,12 @@ export default function Careers() {
                                     </div>
                                 </div>
                                 <div className="bg-gray-300 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-                                    <h3 className="font-semibold text-lg mb-1 text-gray-400">Interspace inc.</h3>
+                                    <h3 className="font-semibold text-lg mb-1 text-gray-400">Interspace Co.,Ltd (Internship)</h3>
                                     <ul className="text-sm mb-1 text-gray-400">
-                                        <li>as Infra Engineer - VMware / AWS / Trend Micro / Zscaler / Splunk</li>
+                                        <li>as Backend Engineer - PHP / Laravel / CodeIgniter / Vagrant</li>
                                     </ul>
                                     <p className="leading-tight text-justify">
-                                        April 2017 ~ December 2020
+                                        July 2015 ~ June 2016
                                     </p>
                                 </div>
                             </div>
