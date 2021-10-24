@@ -2,8 +2,9 @@ import AboutMe from '@/components/AboutMe'
 import Careers from '@/components/Careers'
 import Header from '@/components/Header'
 import Likes from '@/components/Likes'
+import NormalLists from '@/components/NormalLists'
 
-export default function Home() {
+export default function IndexPage() {
     return (
         <>
             <Header />
