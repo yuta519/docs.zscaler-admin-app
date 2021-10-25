@@ -1,36 +1,36 @@
 import { Emoji } from 'emoji-mart';
 import 'emoji-mart/css/emoji-mart.css';
 
+import NormalLists from '@/components/NormalLists';
 
 
 export default function Careers() {
+    const title: string = "Careers"
+    const lines: { emoji: string; description: string }[] = [
+        {
+            emoji: "computer",
+            description: "Backend Engineer - 2 years"
+        },
+        {
+            emoji: "building_construction",
+            description: "Infra Engineer - 5 years"
+        },
+        {
+            emoji: "lock",
+            description: "Security Engineer - 5 years"
+        },
+        {
+            emoji: "heavy_dollar_sign",
+            description: "Sales Engineer - 4 years"
+        },
+    ]
+
     return (
         <>
 
+            <NormalLists title={title} lines={lines} />
+
             <div className="container mx-auto mt-8 px-8">
-                <h3 className="font-mono text-2xl font-bold">Careers</h3>
-                <hr className="my-2" />
-
-                <ul className="list-disc">
-                    <li>
-                        <Emoji emoji="computer" size={30} />&nbsp;
-                        Backend Engineer - 2 years
-                    </li>
-                    <li>
-                        <Emoji emoji="building_construction" size={30} />&nbsp;
-                        Infra Engineer - 5 years
-                    </li>
-                    <li>
-                        <Emoji emoji="lock" size={30} />&nbsp;
-                        Security Engineer - 5 years
-                    </li>
-                    <li>
-                        <Emoji emoji="heavy_dollar_sign" size={30} />&nbsp;
-                        Sales Engineer - 4 years
-                    </li>
-                </ul>
-
-
                 <div className="p-4 mt-4 bg-gray-50">
                     <h3 className="text-4xl text-center font-semibold mb-6">Career Histroy</h3>
                     <div className="container">

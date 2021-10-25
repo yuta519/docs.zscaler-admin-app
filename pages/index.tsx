@@ -3,8 +3,19 @@ import Careers from '@/components/Careers'
 import Header from '@/components/Header'
 import Likes from '@/components/Likes'
 import NormalLists from '@/components/NormalLists'
+import { LineStyle } from '@material-ui/icons'
 
 export default function IndexPage() {
+    const lines = [
+        {
+            emoji: "a",
+            description: "b",
+        },
+        {
+            emoji: "b",
+            description: "d",
+        },
+    ]
     return (
         <>
             <Header />

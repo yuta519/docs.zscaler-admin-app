@@ -9,18 +9,10 @@ interface Line {
     description: string,
 }
 
-interface Content {
-    title: string,
-    lines: Line[],
-}
-
-function NormalLists(
-    // content: content,
-    title: string,
-    // lines: Line[],
-    emoji: string,
-    description: string,
-) {
+function NormalLists({
+    title,
+    lines,
+}) {
     return (
         <div className="container mx-auto mt-8 px-8">
 
@@ -28,18 +20,12 @@ function NormalLists(
             <hr className="my-2" />
 
             <ul className="list-disc">
-                {/* {lines.map((line) =>
+                {lines.map((line: Line) =>
                     <li>
                         <Emoji emoji={line.emoji} size={30} />&nbsp;
                         {line.description}
                     </li>
-                )} */}
-
-                <li>
-                    <Emoji emoji={emoji} size={30} />&nbsp;
-                    {description}
-                </li>
-
+                )}
             </ul>
 
         </div>
