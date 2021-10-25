@@ -1,3 +1,6 @@
+import Link from "next/link"
+import { Emoji } from 'emoji-mart';
+import 'emoji-mart/css/emoji-mart.css';
 
 
 export default function Header() {
@@ -26,6 +29,8 @@ export default function Header() {
                             </div>
                         </div>
                         <div className="hidden md:flex items-center space-x-3 ">
+                            <Link href="ja-jp">日本語</Link>
+                            <Link href="/">English</Link>
                             {/* <a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log In</a>
                             <a href="" className="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</a> */}
                         </div>
