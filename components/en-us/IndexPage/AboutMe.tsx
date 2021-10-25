@@ -1,4 +1,4 @@
-import NormalLists from '@/components/NormalLists';
+import NormalLists from '@/components/Atoms/NormalLists';
 
 
 export default function AboutMe() {

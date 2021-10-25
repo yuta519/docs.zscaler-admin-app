@@ -1,9 +1,4 @@
-import { Emoji } from 'emoji-mart';
-import 'emoji-mart/css/emoji-mart.css';
-
-import NormalLists from '@/components/NormalLists';
-
-
+import NormalLists from '@/components/Atoms/NormalLists';
 
 export default function Likes() {
     const title: string = "Likes / Interests"

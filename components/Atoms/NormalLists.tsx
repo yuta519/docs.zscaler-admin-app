@@ -1,7 +1,6 @@
 import React from 'react';
 import { Emoji } from 'emoji-mart';
 import 'emoji-mart/css/emoji-mart.css';
-import { LineStyle } from '@material-ui/icons';
 
 
 interface Line {

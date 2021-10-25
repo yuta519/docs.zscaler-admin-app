@@ -1,27 +1,24 @@
-import { Emoji } from 'emoji-mart';
-import 'emoji-mart/css/emoji-mart.css';
-
-import NormalLists from '@/components/NormalLists';
+import NormalLists from '@/components/Atoms/NormalLists';
 
 
 export default function Careers() {
-    const title: string = "Careers"
+    const title: string = "業務経験"
     const lines: { emoji: string; description: string }[] = [
         {
             emoji: "computer",
-            description: "Backend Engineer - 2 years"
+            description: "バックエンドエンジニア - 2年"
         },
         {
             emoji: "building_construction",
-            description: "Infra Engineer - 5 years"
+            description: "インフラエンジニア - 5年"
         },
         {
             emoji: "lock",
-            description: "Security Engineer - 5 years"
+            description: "セキュリティエンジニア - 5年"
         },
         {
             emoji: "heavy_dollar_sign",
-            description: "Sales Engineer - 4 years"
+            description: "セールスエンジニア - 4年"
         },
     ]
 
