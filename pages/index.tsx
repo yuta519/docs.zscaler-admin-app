@@ -1,6 +1,7 @@
+import Header from '@/components/Atoms/Header'
+import Footer from '@/components/Atoms/Footer'
 import AboutMe from '@/components/en-us/IndexPage/AboutMe'
 import Careers from '@/components/en-us/IndexPage/Careers'
-import Header from '@/components/en-us/IndexPage/Header'
 import Likes from '@/components/en-us/IndexPage/Likes'
 
 
@@ -11,6 +12,7 @@ export default function IndexPage() {
             <AboutMe />
             <Likes />
             <Careers />
+            <Footer />
         </>
     )
 }

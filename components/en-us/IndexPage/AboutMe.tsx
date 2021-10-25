@@ -14,13 +14,7 @@ export default function AboutMe() {
         },
     ]
     return (
-        <>
-            <p className="mx-auto mt-2">
-                <a href="https://www.linkedin.com/in/yuta519/">LinkedIn &nbsp;</a>
-                <a href="https://github.com/yuta519">&nbsp; Github</a>
-            </p>
-            <NormalLists title={title} lines={lines} />
-        </>
+        <NormalLists title={title} lines={lines} />
     )
 }
 

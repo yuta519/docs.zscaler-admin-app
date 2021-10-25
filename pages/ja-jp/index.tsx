@@ -1,6 +1,6 @@
+import Header from '@/components/Atoms/Header'
 import AboutMe from '@/components/ja-jp/IndexPage/AboutMe'
 import Careers from '@/components/ja-jp/IndexPage/Careers'
-import Header from '@/components/ja-jp/IndexPage/Header'
 import Likes from '@/components/ja-jp/IndexPage/Likes'
 
 
