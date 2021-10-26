@@ -5,7 +5,7 @@ export default function Likes() {
     const lines: { emoji: string; description: string }[] = [
         {
             emoji: "computer",
-            description: "バックエンド技術 - 特に Python / FastAPI / Django / Go あたり"
+            description: "バックエンド技術が好き - 特に Python / FastAPI / Django / Go あたり"
         },
         {
             emoji: "busts_in_silhouette",
