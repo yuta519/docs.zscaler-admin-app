@@ -6,14 +6,14 @@ import Likes from '@/components/ja-jp/IndexPage/Likes'
 
 
 export default function IndexPage() {
-    return (
-        <>
-            <Header />
-            <AboutMe />
-            <Likes />
-            <Careers />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <AboutMe />
+      <Likes />
+      <Careers />
+      <Footer />
+    </>
+  )
 }
 

@@ -4,31 +4,31 @@ import 'emoji-mart/css/emoji-mart.css';
 
 
 interface Line {
-    emoji: string,
-    description: string,
+  emoji: string,
+  description: string,
 }
 
 function NormalLists({
-    title,
-    lines,
+  title,
+  lines,
 }) {
-    return (
-        <div className="container mx-auto mt-8 px-8">
+  return (
+    <div className="container mx-auto mt-8 px-8">
 
-            <h3 className="font-mono text-2xl font-bold">{title}</h3>
-            <hr className="my-2" />
+      <h3 className="font-mono text-2xl font-bold">{title}</h3>
+      <hr className="my-2" />
 
-            <ul className="list-disc">
-                {lines.map((line: Line) =>
-                    <li>
-                        <Emoji emoji={line.emoji} size={30} />&nbsp;
-                        {line.description}
-                    </li>
-                )}
-            </ul>
+      <ul className="list-disc">
+        {lines.map((line: Line) =>
+          <li>
+            <Emoji emoji={line.emoji} size={30} />&nbsp;
+            {line.description}
+          </li>
+        )}
+      </ul>
 
-        </div>
-    )
+    </div>
+  )
 }
 
 
