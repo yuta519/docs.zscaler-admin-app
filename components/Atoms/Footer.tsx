@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function Footer() {
+const Footer: React.VFC = () => {
   return (
     <>
       <footer className="bg-gray-100 py-6 dark:bg-coolGray-800 dark:text-coolGray-50">
@@ -17,45 +17,13 @@ function Footer() {
               </a>
             </div>
             <div className="col-span-6 text-center md:text-left md:col-span-3">
-              <p className="pb-1 text-lg font-medium">Projects</p>
+              <p className="pb-1 text-lg font-medium">My Projects</p>
               <ul>
                 <li>
                   <Link href="zscaler-admin-app">zscaler-admin-app</Link>
                 </li>
-                {/* <li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li> */}
               </ul>
             </div>
-            {/* <div className="col-span-6 text-center md:text-left md:col-span-3">
-<p className="pb-1 text-lg font-medium">Category</p>
-<ul>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-<li>
-<a href="#" className="hover:dark:text-violet-400">Link</a>
-</li>
-</ul>
-</div> */}
           </div>
           <div className="grid justify-center pt-6 lg:justify-between">
             <div className="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
