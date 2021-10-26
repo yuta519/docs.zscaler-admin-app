@@ -16,8 +16,10 @@ export default function Likes() {
             description: "クリーンアーキテクチャ - 他の人が読みやすく理解しやすいコードを書きたいです"
         },
     ]
+
     return (
         <NormalLists title={title} lines={lines} />
     )
+
 }
 

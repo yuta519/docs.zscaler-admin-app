@@ -1,9 +1,7 @@
 import Link from "next/link"
-import { Emoji } from 'emoji-mart';
-import 'emoji-mart/css/emoji-mart.css';
 
 
-export default function Header() {
+function Header() {
     return (
         <>
             <header>
@@ -16,10 +14,12 @@ export default function Header() {
                     <div className="flex justify-between">
                         <div className="flex space-x-7">
                             <div>
-                                <a href="#" className="flex items-center py-4 px-2">
-                                    {/* <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2"> */}
-                                    <span className="font-semibold text-gray-500 text-lg">Yuta Kawamura</span>
-                                </a>
+                                <Link href="/">
+                                    <a className="flex items-center py-4 px-2">
+                                        {/* <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2"> */}
+                                        <span className="font-semibold text-gray-500 text-lg">Yuta Kawamura</span>
+                                    </a>
+                                </Link>
                             </div>
                             <div className="hidden md:flex items-center space-x-1">
                                 {/* <a href="" className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
@@ -64,3 +64,5 @@ export default function Header() {
     )
 }
 
+
+export default Header

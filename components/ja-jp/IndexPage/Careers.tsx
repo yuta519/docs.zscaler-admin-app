@@ -28,8 +28,8 @@ export default function Careers() {
             <NormalLists title={title} lines={lines} />
 
             <div className="container mx-auto mt-8 px-8">
-                <div className="p-4 mt-4 bg-gray-50">
-                    <h3 className="text-4xl text-center font-semibold mb-6">Career Histroy</h3>
+                <div className="p-4 mt-4">
+                    <h3 className="text-2xl text-center font-semibold mb-6">キャリア変遷</h3>
                     <div className="container">
                         <div className="flex flex-col md:grid grid-cols-12 text-gray-50">
 
