@@ -13,20 +13,18 @@ function ZscalerAdminApp() {
   return (
     <>
       <Header />
-      <div className="flex flex-row bg-gray-80">
-        <div className="flex-1 text-center p-2 m-1">
-          <Sidebar title={title} />
+      <main className="flex">
+        <Sidebar title={title} />
+
+        <div className="w-screen">
+          <p className="text-4xl mt-8">What is Zscaler Admin App?</p>
+          <hr className="mb-4" />
+          <p className="text-xl">This is a repository to manage Zscaler Internet Access.</p>
+          <p className="text-xl">aaaa</p>
+          <p className="text-xl">aaaa</p>
+          <p className="text-xl">aaaa</p>
         </div>
-        <div className="flex-1 text-center p-2 m-1">
-          2
-        </div>
-        <div className="flex-1 text-center p-2 m-1">
-          3
-        </div>
-        <div className="flex-1 text-center p-2 m-1">
-          4
-        </div>
-      </div>
+      </main>
       <Footer />
     </>
   )
