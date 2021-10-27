@@ -1,6 +1,7 @@
 import NormalLists from '@/components/Atoms/NormalLists';
 
-export default function Likes() {
+const Likes: React.VFC = () => {
+
   const title: string = "心がけていること / 興味"
   const lines: { emoji: string; description: string }[] = [
     {
@@ -23,3 +24,4 @@ export default function Likes() {
 
 }
 
+export default Likes

@@ -1,7 +1,8 @@
 import NormalLists from '@/components/Atoms/NormalLists';
 
 
-export default function Careers() {
+const Careers: React.VFC = () => {
+
   const title: string = "業務経験"
   const lines: { emoji: string; description: string }[] = [
     {
@@ -127,3 +128,4 @@ export default function Careers() {
   )
 }
 
+export default Careers

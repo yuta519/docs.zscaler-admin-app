@@ -1,7 +1,7 @@
 import NormalLists from '@/components/Atoms/NormalLists';
 
 
-export default function AboutMe() {
+const AboutMe: React.VFC = () => {
   const title: string = "Who is Yuta Kawamura"
   const lines: { emoji: string; description: string }[] = [
     {
@@ -18,3 +18,4 @@ export default function AboutMe() {
   )
 }
 
+export default AboutMe

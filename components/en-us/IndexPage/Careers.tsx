@@ -1,7 +1,8 @@
 import NormalLists from '@/components/Atoms/NormalLists';
 
 
-export default function Careers() {
+const Careers: React.VFC = () => {
+
   const title: string = "Careers"
   const lines: { emoji: string; description: string }[] = [
     {
@@ -24,7 +25,6 @@ export default function Careers() {
 
   return (
     <>
-
       <NormalLists title={title} lines={lines} />
 
       <div className="container mx-auto mt-8 px-8">
@@ -123,7 +123,7 @@ export default function Careers() {
 
       </div>
     </>
-
   )
 }
 
+export default Careers

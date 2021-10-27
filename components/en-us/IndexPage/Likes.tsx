@@ -1,6 +1,7 @@
 import NormalLists from '@/components/Atoms/NormalLists';
 
-export default function Likes() {
+const Likes: React.VFC = () => {
+
   const title: string = "Likes / Interests"
   const lines: { emoji: string; description: string }[] = [
     {
@@ -16,8 +17,10 @@ export default function Likes() {
       description: "Clean Architecture - Readable code and structure are always beautiful."
     },
   ]
+
   return (
     <NormalLists title={title} lines={lines} />
   )
 }
 
+export default Likes

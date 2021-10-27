@@ -1,9 +1,12 @@
 import Link from "next/link"
 
+interface Props {
+  title: string,
+}
 
-function Sidebar({
+const Sidebar: React.FC<Props> = ({
   title,
-}) {
+}) => {
   return (
     <>
       <div className="flex bg-black-100 min-h-screen">

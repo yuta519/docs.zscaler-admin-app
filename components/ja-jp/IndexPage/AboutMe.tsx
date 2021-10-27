@@ -1,7 +1,8 @@
 import NormalLists from '@/components/Atoms/NormalLists';
 
 
-export default function AboutMe() {
+const AboutMe: React.VFC = () => {
+
   const title: string = "川村 優太って？"
   const lines: { emoji: string; description: string }[] = [
     {
@@ -13,8 +14,10 @@ export default function AboutMe() {
       description: "東京在住"
     },
   ]
+
   return (
     <NormalLists title={title} lines={lines} />
   )
 }
 
+export default AboutMe
