@@ -15,17 +15,17 @@ const Sidebar: React.FC<Props> = ({
             <a href="/" className="text-white">{title}</a>
           </div>
           <nav className="mt-10 bg-black-100 ">
-            <Link href="">
+            <Link href="/zscaler-admin-app">
               <a className="flex items-center py-2 px-4 bg-gray-200 text-gray-700 border-r-4 border-gray-700" >
                 What is Zscaler Admin App?
               </a>
             </Link>
-            <Link href="zscaler-admin-app/requirements">
+            <Link href="/zscaler-admin-app/requirements">
               <a className="flex items-center py-2 px-4 text-white border-white hover:bg-gray-100 hover:text-gray-700 hover:border-gray-700">
                 Requirements
               </a>
             </Link>
-            <Link href="zscaler-admin-app/installation">
+            <Link href="/zscaler-admin-app/installation">
               <a className="flex items-center py-2 px-4 text-white border-white hover:bg-gray-100 hover:text-gray-700 hover:border-gray-700" >
                 Installation
               </a>
