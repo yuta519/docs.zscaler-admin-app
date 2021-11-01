@@ -36,7 +36,24 @@ function Installation() {
           </div>
           <div className="mx-4 mt-4">
             <p className="text-xl">Check installation</p>
-            <p className="font-mono text-base text-white bg-black">$ zia --help</p>
+            <div className="font-mono text-sm text-white bg-black">$ zia --help
+              <p>Usage: zia [OPTIONS] COMMAND [ARGS]...<br /><br /></p>
+
+              <p>Options:</p>
+              <p>--install-completion [bash|zsh|fish|powershell|pwsh]</p>
+              <p>&nbsp;Install completion for the specified shell.</p>
+              <p>--show-completion [bash|zsh|fish|powershell|pwsh]</p>
+              <p>&nbsp;Show completion for the specified shell, to copy it or customize the installation.</p>
+              <p>--help</p>
+              <p>&nbsp;Show this message and exit.<br /><br /></p>
+
+              <p>Commands:</p>
+              <p>&nbsp;adminrole</p>
+              <p>&nbsp;adminuser</p>
+              <p>&nbsp;urlcategory</p>
+              <p>&nbsp;urlfilter</p>
+              <p>&nbsp;usermng</p>
+            </div>
           </div>
         </div>
       </main>
