@@ -34,6 +34,10 @@ function Installation() {
             <p className="font-mono text-base text-white bg-black">$ cd zscaler-admin-app</p>
             <p className="font-mono text-base text-white bg-black">$ poetry shell & poetry install</p>
           </div>
+          <div className="mx-4 mt-4">
+            <p className="text-xl">Check installation</p>
+            <p className="font-mono text-base text-white bg-black">$ zia --help</p>
+          </div>
         </div>
       </main>
       <Footer />
