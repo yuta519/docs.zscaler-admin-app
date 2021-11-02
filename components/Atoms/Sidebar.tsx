@@ -30,7 +30,7 @@ const Sidebar: React.FC<Props> = ({
                 Installation
               </a>
             </Link>
-            <Link href="zscaler-admin-app/how_to_use">
+            <Link href="zscaler-admin-app/howtouse">
               <a className="flex items-center py-2 px-4 text-white border-white hover:bg-gray-100 hover:text-gray-700 hover:border-gray-700" >
                 How to use
               </a>
