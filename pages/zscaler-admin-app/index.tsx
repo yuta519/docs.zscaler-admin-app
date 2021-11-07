@@ -20,9 +20,9 @@ function IndexPage() {
           <hr className="mb-4" />
           <div className="mx-4">
             <p className="text-xl">This is a repository to manage Zscaler Internet Access.</p>
-            <p className="text-xl">aaaa</p>
-            <p className="text-xl">aaaa</p>
-            <p className="text-xl">aaaa</p>
+            <p className="text-xl">You could create Custom URL category, URL Filtering RUles, Admin User and many thins from CLI.</p>
+            <p className="text-xl">Especially, if you are managing multi tenants of ZIA, you don't need to switch account by tenants.</p>
+            <p className="text-xl">If you are intersted in this project, please contact me with ease.</p>
           </div>
         </div>
       </main>
