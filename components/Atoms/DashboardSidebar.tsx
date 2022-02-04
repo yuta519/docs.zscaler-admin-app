@@ -11,7 +11,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -49,7 +49,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -66,7 +66,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-green-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -104,7 +104,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -121,7 +121,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -139,7 +139,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-gray-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
@@ -157,7 +157,7 @@ function DashboardSidebar() {
                 className="flex flex-row items-center h-12 px-4 rounded-lg text-gray-600 hover:bg-gray-100">
                 <span className="flex items-center justify-center text-lg text-red-400">
                   <svg fill="none"
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
                     viewBox="0 0 24 24"
