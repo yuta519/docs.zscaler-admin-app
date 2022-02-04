@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Header: React.VFC = () => {
   return (
-    <div className="sticky top-0">
+    <div className="top-0">
       <header>
         <title>
           Yuta Kawamura

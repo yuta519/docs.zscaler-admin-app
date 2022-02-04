@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import NormalLists from '@/components/Atoms/NormalLists';
+import ProfilePhoto from '@/public/profile.jpg'
 
 
 const AboutMe: React.VFC = () => {
@@ -6,15 +8,25 @@ const AboutMe: React.VFC = () => {
   const lines: { emoji: string; description: string }[] = [
     {
       emoji: "jp",
-      description: "Japanese Software Engineer - Server Side (Python, FastAPI, Django, Go) / Client Side (Javascript, Typescript, React, Next.js)"
+      description: "Software Engineer in Japan"
     },
     {
       emoji: "tokyo_tower",
       description: "Live in Tokyo"
     },
+    {
+      emoji: "wrench",
+      description: "Server Side (Python, FastAPI, Django, Go) / Client Side (Javascript, Typescript, React, Next.js)",
+    },
+
   ]
   return (
-    <NormalLists title={title} lines={lines} />
+    <>
+      <div className="flex justify-center">
+        <Image src={ProfilePhoto} width={2000} height={700} objectFit="contain" />
+      </div>
+      <NormalLists title={title} lines={lines} />
+    </>
   )
 }
 

@@ -23,9 +23,11 @@ const NormalLists: React.FC<Props> = ({
 
     <ul className="list-disc">
       {lines.map((line: Line) =>
-        <li>
-          <Emoji emoji={line.emoji} size={30} />&nbsp;
-          {line.description}
+        <li className="list-none">
+          <div className="inline-flex py-1">
+            <Emoji emoji={line.emoji} size={30} />
+            <div>&nbsp;{line.description}</div>
+          </div>
         </li>
       )}
     </ul>

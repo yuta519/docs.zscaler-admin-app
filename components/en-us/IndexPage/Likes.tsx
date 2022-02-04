@@ -2,7 +2,7 @@ import NormalLists from '@/components/Atoms/NormalLists';
 
 const Likes: React.VFC = () => {
 
-  const title: string = "Likes / Interests"
+  const title: string = "Interests"
   const lines: { emoji: string; description: string }[] = [
     {
       emoji: "computer",

@@ -9,11 +9,12 @@ export default function IndexPage() {
   return (
     <>
       <Header />
-      <AboutMe />
-      <Likes />
-      <Careers />
+      <div className='flex-col justify-center'>
+        <AboutMe />
+        <Likes />
+        <Careers />
+      </div>
       <Footer />
     </>
   )
 }
-
