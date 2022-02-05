@@ -4,6 +4,7 @@ import AboutMe from '@/components/en-us/IndexPage/AboutMe'
 import Careers from '@/components/en-us/IndexPage/Careers'
 import Likes from '@/components/en-us/IndexPage/Likes'
 import ProfileCover from '@/components/en-us/IndexPage/ProfileCover'
+import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
 
 
 export default function IndexPage() {
@@ -20,16 +21,7 @@ export default function IndexPage() {
           <Careers />
         </div>
         <div className="col-span-2 pr-5">
-          <h3 className="font-mono text-base font-bold py-6">Recently posted Blogs</h3>
-          <ul className="list-disc">
-            <li className="list-none py-1">hoge</li>
-            <li className="list-none py-1">hoge</li>
-            <li className="list-none py-1">hoge</li>
-            <li className="list-none py-1">hoge</li>
-            <li className="list-none py-1">hoge</li>
-            <li className="list-none py-1">hoge</li>
-            <li className="list-none py-1">hoge</li>
-          </ul>
+          <RecentBlogs />
         </div>
       </div>
 
