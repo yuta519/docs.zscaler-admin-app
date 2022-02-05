@@ -16,8 +16,7 @@ const NormalLists: React.FC<Props> = ({
   title,
   lines,
 }: Props) => (
-  <div className="container mx-auto mt-8 px-8">
-
+  <div className="p-4">
     <h3 className="font-mono text-2xl font-bold">{title}</h3>
     <hr className="my-2" />
 

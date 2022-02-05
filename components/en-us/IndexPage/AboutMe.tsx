@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import NormalLists from '@/components/Atoms/NormalLists';
-import ProfilePhoto from '@/public/profile.jpg'
 
 
 const AboutMe: React.VFC = () => {
@@ -21,12 +19,7 @@ const AboutMe: React.VFC = () => {
 
   ]
   return (
-    <>
-      <div className="flex justify-center">
-        <Image src={ProfilePhoto} width={2000} height={700} objectFit="contain" />
-      </div>
-      <NormalLists title={title} lines={lines} />
-    </>
+    <NormalLists title={title} lines={lines} />
   )
 }
 
