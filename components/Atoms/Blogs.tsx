@@ -20,7 +20,7 @@ const Blogs: React.FC<Props> = ({
     <hr className="my-2" />
     <ul className="list-disc">
       {articles.map((article: Article) =>
-        <li className="list-none text-sm py-2">
+        <li key={article.title} className="list-none text-sm py-2">
           <Link href="https://google.com">
             {article.title}
           </Link>
