@@ -3,17 +3,13 @@ import { join } from 'path'
 import axios from 'axios'
 import matter from 'gray-matter'
 
-const getBlogDetail = (url: string) => {
+export const getBlogDetail = (url: string) => {
   let blog = axios.get(url)
     .then(function (response) {
       console.log(response)
     })
   return blog
 }
-
-
-
-
 
 
 

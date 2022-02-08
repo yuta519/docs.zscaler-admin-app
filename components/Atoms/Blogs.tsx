@@ -16,7 +16,9 @@ const Blogs: React.FC<Props> = ({
   articles,
 }: Props) => (
   <div className="blogs">
-    <h3 className="font-mono text-base font-bold pt-10 pb-3">{title}</h3>
+    <Link href="/blogs">
+      <h3 className="font-mono text-base font-bold pt-10 pb-3">{title}</h3>
+    </Link>
     <hr className="my-2" />
     <ul className="list-disc">
       {articles.map((article: Article) =>
