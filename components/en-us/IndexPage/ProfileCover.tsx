@@ -3,11 +3,11 @@ import ProfilePhoto from '@/public/profile.jpg'
 
 
 const ProfileCover: React.VFC = () => {
+  const myLoader = ({ src, width, quality }) => {
+    return `https://md-host-bucket.s3.us-east-2.amazonaws.com/${src}`
+  }
   return (
-    <>
-      <Image src={ProfilePhoto} objectFit="contain" />
-      {/* <img src='_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fprofile.b774a23dfbf924eb56905471b0adfc4f.jpg&w=1920&q=75' /> */}
-    </>
+    <Image loader={myLoader} src='profile.jpg' width={1000} height={450} objectFit="contain" />
   )
 }
 
