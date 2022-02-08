@@ -1,30 +1,22 @@
 import Header from '@/components/Atoms/Header'
 import Footer from '@/components/Atoms/Footer'
-import AboutMe from '@/components/en-us/IndexPage/AboutMe'
-import Careers from '@/components/en-us/IndexPage/Careers'
-import Likes from '@/components/en-us/IndexPage/Likes'
-import ProfileCover from '@/components/en-us/IndexPage/ProfileCover'
+import Blog from '@/components/Atoms/Blog'
 import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
 
 
-export default function IndexPage() {
+export default function BlogPage() {
   return (
     <>
       <Header />
-
       <div className="grid grid-flow-col grid-cols-10">
         <div className="col-span-1"></div>
         <div className="col-span-7 flex-col container mx-auto mt-9 px-8 justify-center">
-          <ProfileCover />
-          <AboutMe />
-          <Likes />
-          <Careers />
+          <Blog markdown_path="# aaa" />
         </div>
         <div className="col-span-2 pr-5">
           <RecentBlogs />
         </div>
       </div>
-
       <Footer />
     </>
   )
