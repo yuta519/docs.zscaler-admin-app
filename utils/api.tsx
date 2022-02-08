@@ -1,6 +1,25 @@
 import fs from 'fs'
-import { join } from 'path';
-import matter from 'gray-matter';
+import { join } from 'path'
+import axios from 'axios'
+import matter from 'gray-matter'
+
+const getBlogDetail = (url: string) => {
+  let blog = axios.get(url)
+    .then(function (response) {
+      console.log(response)
+    })
+  return blog
+}
+
+
+
+
+
+
+
+
+
+
 
 // postsが格納されているディレクトリを取得する
 // memo: process.cwd() はカレントディレクトリ

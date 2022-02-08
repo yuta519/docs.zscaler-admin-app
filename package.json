@@ -2,6 +2,7 @@
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
     "autoprefixer": "^10.3.7",
+    "axios": "^0.25.0",
     "emoji-mart": "^3.0.1",
     "gray-matter": "^4.0.3",
     "next": "^11.1.2",
