@@ -13,17 +13,13 @@ const Blog: React.FC<Props> = ({ markdown_path }: Props) => {
   const [article, setArticle] = useState("")
   useEffect(() => {
     (async () => {
-      // getBlogDetail("https://md-host-bucket.s3.us-east-2.amazonaws.com/What+is+Golang+copy.txt")
-      const result = await remark().use(html).process(markdown_path)
-      const contentHtml: string = result.toString()
-      setArticle(contentHtml)
+      await getBlogDetail(markdown_path, setArticle)
     })()
   }, [])
 
   return (
     <div id="blog" className="blog">
       <div dangerouslySetInnerHTML={{ __html: article }} />
-      {article}
     </div>
   )
 }

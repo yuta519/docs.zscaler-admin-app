@@ -14,9 +14,12 @@ const AboutMe: React.VFC = () => {
     },
     {
       emoji: "wrench",
-      description: "Server Side (Python, FastAPI, Django, Go) / Client Side (Javascript, Typescript, React, Next.js)",
+      description: "Server Side - Python, FastAPI, Django, Go",
     },
-
+    {
+      emoji: "globe_with_meridians",
+      description: "Client Side - Javascript, Typescript, React, Next.js",
+    },
   ]
   return (
     <NormalLists title={title} lines={lines} />
