@@ -11,7 +11,7 @@ export default function BlogPage() {
       <div className="grid grid-flow-col grid-cols-10">
         <div className="col-span-1"></div>
         <div className="col-span-7 flex-col container mx-auto mt-9 px-8 justify-center">
-          <Blog markdown_path="What+is+Golang+copy.txt" />
+          <Blog markdown_path="Why_I_use_Notion!.md" />
         </div>
         <div className="col-span-2 pr-5">
           <RecentBlogs />
