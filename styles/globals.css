@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.markdown h1 {
+  @apply text-5xl py-10;
+}
+.markdown h2 {
+  @apply border-red-500 border-l-4 text-4xl py-5 ;
+}
+.markdown h3 {
+  @apply border-red-500 border-l-4 text-2xl;
+}
+.markdown h4 {
+  @apply text-lg border-b border-black my-5;
+}
+.markdown p {
+  @apply text-xl p-2
+}
+.markdown ul {
+  @apply list-disc text-xl pl-10 py-2;
+}
+.markdown pre {
+  @apply bg-gray-100 p-4 m-4
+}
