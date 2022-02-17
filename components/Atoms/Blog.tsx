@@ -10,7 +10,7 @@ const Blog: React.FC<Props> = ({ markdown_path }: Props) => {
   const [article, setArticle] = useState("")
   useEffect(() => {
     (() => {
-      getBlogDetail(markdown_path["id"], setArticle)
+      getBlogDetail(markdown_path, setArticle)
     })()
   }, [])
 
