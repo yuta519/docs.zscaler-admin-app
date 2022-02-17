@@ -4,6 +4,7 @@ import 'emoji-mart/css/emoji-mart.css';
 
 interface Article {
   title: string,
+  url: string,
 }
 
 interface Props {
@@ -23,7 +24,7 @@ const Blogs: React.FC<Props> = ({
     <ul className="list-disc">
       {articles.map((article: Article) =>
         <li key={article.title} className="list-none text-sm py-2">
-          <Link href="https://google.com">
+          <Link href={article.url}>
             {article.title}
           </Link>
         </li>
