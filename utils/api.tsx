@@ -7,7 +7,7 @@ interface Article {
   url: string,
 }
 
-export const getBlogDetail = (filename: string, setState: (md: string) => void) => {
+export const getBlogDetail = (filename: string | string[], setState: (md: string) => void) => {
   axios.get("https://md-host-bucket.s3.us-east-2.amazonaws.com/" + filename)
     .then((response) => {
       return remark().use(html).process(response.data)
