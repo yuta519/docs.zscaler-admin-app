@@ -3,6 +3,7 @@ import Link from 'next/link'
 import 'emoji-mart/css/emoji-mart.css';
 
 interface Article {
+  filename: string,
   title: string,
   url: string,
 }
@@ -24,7 +25,7 @@ const Blogs: React.FC<Props> = ({
     <ul className="list-disc">
       {articles.map((article: Article) =>
         <li key={article.title} className="list-none text-sm py-2">
-          <Link href={"/blogs/" + article.url}>
+          <Link href={"/blogs/" + article.filename}>
             {article.title}
           </Link>
         </li>
