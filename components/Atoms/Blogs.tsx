@@ -18,13 +18,11 @@ const Blogs: React.FC<Props> = ({
   articles,
 }: Props) => (
   <div className="blogs">
-    <Link href="/blogs">
-      <h3 className="font-mono text-base font-bold pt-10 pb-3">{title}</h3>
-    </Link>
+    <h3 className="font-mono text-base font-bold pt-10 pb-3">{title}</h3>
     <hr className="my-2" />
     <ul className="list-disc">
       {articles.map((article: Article) =>
-        <li key={article.title} className="list-none text-sm py-2">
+        <li key={article.title} className="list-none text-base py-2">
           <Link href={"/blogs/" + article.filename}>
             {article.title}
           </Link>
