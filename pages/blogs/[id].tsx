@@ -1,4 +1,4 @@
-import Blog from '@/components/en-us/BlogPage'
+import BlogPage from '@/components/en-us/BlogPage'
 import { useRouter } from 'next/router'
 
 export default function IndexPage() {
@@ -6,6 +6,6 @@ export default function IndexPage() {
   const { id } = router.query
 
   return (
-    <Blog id={id} />
+    <BlogPage id={id} />
   )
 }

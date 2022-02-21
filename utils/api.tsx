@@ -4,6 +4,7 @@ import html from 'remark-html';
 
 interface Article {
   title: string,
+  filename: string
   url: string,
 }
 
@@ -17,6 +18,9 @@ export const getBlogDetail = (filename: string | string[], setState: (md: string
 }
 
 export const getBlogList = (setState: (articles: Article[]) => void) => {
-  axios.get(process.env.NEXT_PUBLIC_API_SERVER_IP + "/blogs")
-    .then((response) => { setState(response.data) })
+  let data = { title: "Why I use Notion!", filename: "Why_I_use_Notion!.md", url: "Why_I_use_Notion!.md" }
+  let datas = [data]
+  // axios.get(process.env.NEXT_PUBLIC_API_SERVER_IP + "/blogs")
+  //   .then((response) => { setState(response.data) })
+  setState(datas)
 }
