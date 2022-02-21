@@ -1,32 +1,19 @@
 import Header from '@/components/Atoms/Header'
 import Footer from '@/components/Atoms/Footer'
-import Blog from '@/components/Atoms/Blog'
-import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
+import PostedBlogs from './PostedBlogs'
 
 
-interface Props {
-  readonly id: string | string[],
-}
-
-
-
-const BlogPage: React.FC<Props> = ({ id }: Props) => {
+export default function BlogListPage() {
   return (
     <>
       <Header />
       <div className="grid grid-flow-col grid-cols-10">
         <div className="col-span-1"></div>
         <div className="col-span-7 flex-col container mx-auto mt-9 px-8 justify-center">
-          <Blog markdown_path={id} />
-        </div>
-        <div className="col-span-2 pr-5">
-          <RecentBlogs />
+          <PostedBlogs />
         </div>
       </div>
       <Footer />
     </>
   )
 }
-
-
-export default BlogPage

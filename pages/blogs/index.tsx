@@ -1,8 +1,8 @@
-import Blog from '@/components/en-us/BlogPage'
+import BlogList from '@/components/en-us/BlogListPage'
 
 
 export default function IndexPage() {
   return (
-    <Blog />
+    <BlogList />
   )
 }
