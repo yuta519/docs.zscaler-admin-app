@@ -1,5 +1,6 @@
 import Header from '@/components/Atoms/Header'
 import Footer from '@/components/Atoms/Footer'
+import Icons from '@/components/Atoms/Icons'
 import AboutMe from '@/components/en-us/IndexPage/AboutMe'
 import Careers from '@/components/en-us/IndexPage/Careers'
 import Likes from '@/components/en-us/IndexPage/Likes'
@@ -16,6 +17,7 @@ export default function IndexPage() {
         <div className="col-span-1"></div>
         <div className="col-span-7 flex-col container mx-auto mt-9 px-8 justify-center">
           <ProfileCover />
+          <Icons />
           <AboutMe />
           <Likes />
           <Careers />
