@@ -6,15 +6,18 @@ const Likes: React.VFC = () => {
   const lines: { emoji: string; description: string }[] = [
     {
       emoji: "sparkles",
-      description: "Clean Architecture & DDD - Readable code and structure are always beautiful."
+      description: "Clean Architecture & DDD"
+      // description: "Clean Architecture & DDD - Readable code and structure are always beautiful."
     },
     {
       emoji: "computer",
-      description: "Backend / Server side skills - Especially, Python / FastAPI / Django / Go"
+      description: "Backend / Server side skills"
+      // description: "Backend / Server side skills - Especially, Python / FastAPI / Django / Go"
     },
     {
       emoji: "busts_in_silhouette",
-      description: "Collaboration - Software development is a team sport, I think."
+      description: "Development is a TEAM Sport."
+      // description: "Collaboration - Software development is a team sport, I think."
     },
   ]
 
