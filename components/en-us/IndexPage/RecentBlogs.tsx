@@ -10,12 +10,12 @@ const RecentBlogs: React.VFC = () => {
   useEffect(() => {
     getBlogList(setArticles)
   }, [])
-  const title: string = "Recently Posted Blogs"
+  const title: string = "Recent Blogs"
 
   return (
     <>
       <Blogs title={title} articles={articles} />
-      <p className='text-blue-400 text-base'><Link href="/blogs">more</Link></p>
+      <p className='text-blue-400 text-base sm:text-xs'><Link href="/blogs">more</Link></p>
     </>
   )
 }

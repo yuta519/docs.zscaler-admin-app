@@ -14,11 +14,13 @@ const AboutMe: React.VFC = () => {
     },
     {
       emoji: "wrench",
-      description: "Server Side - Python, FastAPI, Django, Go",
+      description: "Python, FastAPI, Django, Go",
+      // description: "Server Side - Python, FastAPI, Django, Go",
     },
     {
       emoji: "globe_with_meridians",
-      description: "Client Side - Javascript, Typescript, React, Next.js",
+      description: "Typescript, React, Next.js",
+      // description: "Client Side - Javascript, Typescript, React, Next.js",
     },
   ]
   return (
