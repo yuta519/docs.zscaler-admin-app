@@ -19,9 +19,9 @@ const NormalLists: React.FC<Props> = ({
   <div className="p-4">
     <p className="font-mono font-bold sm:text-base md:text-2xl">{title}</p>
     <hr className="my-2" />
-    <ul className="list-disc">
+    <ul key={title} className="list-disc">
       {lines.map((line: Line) =>
-        <li className="list-none">
+        <li key={line.description} className="list-none">
           <div className="inline-flex py-1">
             <Emoji emoji={line.emoji} size={20} />
             <div className="md:text-lg sm:text-xs">&nbsp;{line.description}</div>
