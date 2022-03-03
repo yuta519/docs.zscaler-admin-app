@@ -9,45 +9,39 @@ const Projects: React.VFC = () => {
 
       <div className='my-5 md:flex'>
         <Project
-          img='https://v1.tailwindcss.com/img/card-top.jpg'
+          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/yuta519.github.io.png'
           projectName='yuta519.github.io (This website)'
-          projectDescription='project project project project '
-          tags={[]}
+          projectDescription='My profile site. Including not only profile, but also blogs I wrote.'
+          tags={['Next.js', 'Typescript']}
         />
         <Project
-          img='https://v1.tailwindcss.com/img/card-top.jpg'
+          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Notion_app_logo.png'
           projectName='Notion API SDK'
-          projectDescription='project project project project '
-          tags={[]}
+          projectDescription='Notion SDK for Golang.'
+          tags={["Go", "Notion API"]}
         />
         <Project
-          img='https://v1.tailwindcss.com/img/card-top.jpg'
-          projectName=''
-          projectDescription='project project project project '
-          tags={[]}
+          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Zscaler.png'
+          projectName='Zscaler Python SDK'
+          projectDescription='Zscaler SDK for Python.'
+          tags={["Pyhon", "Zscaler"]}
+        />
+        <Project
+          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Zscaler.png'
+          projectName='Zscaler Golang SDK'
+          projectDescription='Zscaler SDK for Golang.'
+          tags={["Go", "Zscaler"]}
         />
       </div>
-      <div className='my-5 md:flex'>
+      {/* <div className='my-5 md:flex'>
         <Project
-          img='https://v1.tailwindcss.com/img/card-top.jpg'
-          projectName='Zscaler Python SDK'
-          projectDescription='project project project project '
-          tags={[]}
-        />
-        <Project
-          img='https://v1.tailwindcss.com/img/card-top.jpg'
+          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Zscaler.png'
           projectName='Zscaler Golang SDK'
           projectDescription='project project project project '
-          tags={[]}
-        />
-        <Project
-          img='https://v1.tailwindcss.com/img/card-top.jpg'
-          projectName=''
-          projectDescription='project project project project '
-          tags={[]}
+          tags={["Go", "Zscaler"]}
         />
       </div>
-      <p className='text-blue-400 md:text-base sm:text-xs'><Link href="/blogs">more</Link></p>
+      <p className='text-blue-400 md:text-base sm:text-xs'><Link href="/projects">more</Link></p> */}
     </div>
   )
 }
