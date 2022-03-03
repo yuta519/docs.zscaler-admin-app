@@ -1,17 +1,13 @@
-// import React, { useEffect, useState } from 'react';
-// import 'emoji-mart/css/emoji-mart.css';
-// import { getBlogDetail } from '@/utils/api'
-
 interface Props {
   readonly img: string,
   readonly projectName: string,
   readonly projectDescription: string,
+  readonly tags: string[],
 }
 
-const Project: React.FC<Props> = ({ img, projectName, projectDescription }: Props) => {
+const Project: React.FC<Props> = ({ img, projectName, projectDescription, tags }: Props) => {
   return (
-    <div className="max-w-xs rounded overflow-hidden shadow-lg">
-      {/* <img className="w-full" src="https://v1.tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains" /> */}
+    <div className="flex-auto m-2 max-w-xs rounded overflow-hidden shadow-lg">
       <img className="w-full" src={img} alt="Sunset in the mountains" />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{projectName}</div>
