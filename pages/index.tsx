@@ -5,6 +5,7 @@ import AboutMe from '@/components/en-us/IndexPage/AboutMe'
 import Careers from '@/components/en-us/IndexPage/Careers'
 import Likes from '@/components/en-us/IndexPage/Likes'
 import ProfileCover from '@/components/en-us/IndexPage/ProfileCover'
+import Projects from '@/components/en-us/IndexPage/Projects'
 import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
 
 
@@ -20,6 +21,7 @@ export default function IndexPage() {
           <Icons />
           <AboutMe />
           <Likes />
+          <Projects />
           <Careers />
         </div>
         <div className="col-span-2 pr-5">
