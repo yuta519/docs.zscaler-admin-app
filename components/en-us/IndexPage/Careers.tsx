@@ -3,7 +3,7 @@ import NormalLists from '@/components/Atoms/NormalLists';
 
 const Careers: React.VFC = () => {
 
-  const title: string = "Careers"
+  const title: string = "Career Summary"
   const lines: { emoji: string; description: string }[] = [
     {
       emoji: "computer",
@@ -17,15 +17,16 @@ const Careers: React.VFC = () => {
       emoji: "lock",
       description: "Security Engineer - 5 years"
     },
-    {
-      emoji: "heavy_dollar_sign",
-      description: "Sales Engineer - 4 years"
-    },
   ]
 
   return (
     <>
       <NormalLists title={title} lines={lines} />
+
+      {/* <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        Career History
+      </button> */}
+
 
       <div className="p-4 mt-4 ">
         <h3 className="md:text-2xl sm:text-base text-left font-semibold mb-3">Career Histroy</h3>
