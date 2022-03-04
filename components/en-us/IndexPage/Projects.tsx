@@ -3,7 +3,7 @@ import Card from '@/components/Atoms/Card';
 const Cards: React.VFC = () => {
   return (
     <div className="p-4">
-      <p className="font-mono font-bold sm:text-base md:text-2xl">cards</p>
+      <p className="font-mono font-bold sm:text-base md:text-2xl">Projects</p>
       <hr className="my-2" />
 
       <div className='my-5 md:flex'>
