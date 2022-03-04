@@ -10,17 +10,15 @@ const AboutMe: React.VFC = () => {
     },
     {
       emoji: "tokyo_tower",
-      description: "Live in Tokyo"
+      description: "Live in Tokyo (plan to go to Canada in the near future)"
     },
     {
       emoji: "wrench",
-      description: "Python, FastAPI, Django, Go",
-      // description: "Server Side - Python, FastAPI, Django, Go",
+      description: "Server Side - Python, FastAPI, Django, Go",
     },
     {
       emoji: "globe_with_meridians",
-      description: "Typescript, React, Next.js",
-      // description: "Client Side - Javascript, Typescript, React, Next.js",
+      description: "Client Side - Javascript, Typescript, React, Next.js",
     },
   ]
   return (
