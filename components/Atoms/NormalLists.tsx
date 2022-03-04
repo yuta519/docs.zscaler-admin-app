@@ -17,14 +17,14 @@ const NormalLists: React.FC<Props> = ({
   lines,
 }: Props) => (
   <div className="p-4">
-    <p className="font-mono font-bold sm:text-base md:text-2xl">{title}</p>
+    <p className="font-mono font-bold sm:text-base md:text-3xl">{title}</p>
     <hr className="my-2" />
     <ul key={title} className="list-disc">
       {lines.map((line: Line) =>
         <li key={line.description} className="list-none">
           <div className="inline-flex py-1">
             <Emoji emoji={line.emoji} size={20} />
-            <div className="md:text-lg sm:text-xs">&nbsp;{line.description}</div>
+            <div className="md:text-xl sm:text-xs">&nbsp;{line.description}</div>
           </div>
         </li>
       )}
