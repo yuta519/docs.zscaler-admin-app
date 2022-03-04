@@ -1,49 +1,48 @@
-import Link from 'next/link';
-import Project from '@/components/Atoms/Project';
+import Card from '@/components/Atoms/Card';
 
-const Projects: React.VFC = () => {
+const Cards: React.VFC = () => {
   return (
     <div className="p-4">
-      <p className="font-mono font-bold sm:text-base md:text-2xl">Projects</p>
+      <p className="font-mono font-bold sm:text-base md:text-2xl">cards</p>
       <hr className="my-2" />
 
       <div className='my-5 md:flex'>
-        <Project
+        <Card
           img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/yuta519.github.io.png'
-          projectName='yuta519.github.io (This website)'
-          projectDescription='My profile site. Including not only profile, but also blogs I wrote.'
+          cardName='yuta519.github.io (This website)'
+          cardDescription='My profile site. Including not only profile, but also blogs I wrote.'
           tags={['Next.js', 'Typescript']}
         />
-        <Project
+        <Card
           img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Notion_app_logo.png'
-          projectName='Notion API SDK'
-          projectDescription='Notion SDK for Golang.'
+          cardName='Notion API SDK'
+          cardDescription='Notion SDK for Golang.'
           tags={["Go", "Notion API"]}
         />
-        <Project
+        <Card
           img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Zscaler.png'
-          projectName='Zscaler Python SDK'
-          projectDescription='Zscaler SDK for Python.'
+          cardName='Zscaler Python SDK'
+          cardDescription='Zscaler SDK for Python.'
           tags={["Pyhon", "Zscaler"]}
         />
-        <Project
+        <Card
           img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Zscaler.png'
-          projectName='Zscaler Golang SDK'
-          projectDescription='Zscaler SDK for Golang.'
+          cardName='Zscaler Golang SDK'
+          cardDescription='Zscaler SDK for Golang.'
           tags={["Go", "Zscaler"]}
         />
       </div>
       {/* <div className='my-5 md:flex'>
-        <Project
-          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/projects/Zscaler.png'
-          projectName='Zscaler Golang SDK'
-          projectDescription='project project project project '
+        <Card
+          img='https://raw.githubusercontent.com/yuta519/yuta519.github.io/feat/new_work_design/public/cards/Zscaler.png'
+          cardName='Zscaler Golang SDK'
+          cardDescription='card card card card '
           tags={["Go", "Zscaler"]}
         />
       </div>
-      <p className='text-blue-400 md:text-base sm:text-xs'><Link href="/projects">more</Link></p> */}
+      <p className='text-blue-400 md:text-base sm:text-xs'><Link href="/cards">more</Link></p> */}
     </div>
   )
 }
 
-export default Projects
+export default Cards
