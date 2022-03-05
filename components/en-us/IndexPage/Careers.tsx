@@ -3,7 +3,7 @@ import NormalLists from '@/components/Atoms/NormalLists';
 
 const Careers: React.VFC = () => {
 
-  const title: string = "Career Summary"
+  const title: string = "Careers"
   const lines: { emoji: string; description: string }[] = [
     {
       emoji: "computer",
@@ -20,18 +20,17 @@ const Careers: React.VFC = () => {
   ]
 
   return (
-    <>
+    <div className='pb-4'>
       <NormalLists title={title} lines={lines} />
 
-      {/* <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+      <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
         Career History
-      </button> */}
+      </button>
 
 
-      <div className="p-4 mt-4 ">
+      {/* <div className="p-4 mt-4 ">
         <h3 className="md:text-2xl sm:text-base text-left font-semibold mb-3">Career Histroy</h3>
         <hr />
-        {/* <div className="container"> */}
         <div className="flex flex-col md:grid grid-cols-12 text-gray-50 mt-3">
 
           <div className="flex md:contents">
@@ -142,10 +141,10 @@ const Careers: React.VFC = () => {
           </div>
 
         </div>
-      </div>
+      </div> */}
       {/* </div> */}
 
-    </>
+    </div>
   )
 }
 

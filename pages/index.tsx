@@ -7,6 +7,7 @@ import Likes from '@/components/en-us/IndexPage/Likes'
 import ProfileCover from '@/components/en-us/IndexPage/ProfileCover'
 import Projects from '@/components/en-us/IndexPage/Projects'
 import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
+import Skills from '@/components/en-us/IndexPage/Skills'
 
 
 export default function IndexPage() {
@@ -23,12 +24,12 @@ export default function IndexPage() {
           <Likes />
           <Projects />
           <Careers />
+          <Skills />
         </div>
         <div className="col-span-2 pr-5">
           <RecentBlogs />
         </div>
       </div>
-
       <Footer />
     </>
   )
