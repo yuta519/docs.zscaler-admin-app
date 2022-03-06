@@ -11,7 +11,7 @@ const Card: React.FC<Props> = ({ img, cardName, cardDescription, tags }: Props) 
   return (
     // <Link href="/projects/yuta519.github.io">
     <Link href="/projects/">
-      <div key={cardName} className="flex-1 m-2 max-w-xs rounded overflow-hidden shadow-lg">
+      <div key={cardName} className="flex-1 m-2 max-w-xs rounded overflow-hidden shadow-lg cursor-pointer">
         <img className="w-full" src={img} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{cardName}</div>
