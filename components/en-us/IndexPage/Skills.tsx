@@ -6,7 +6,7 @@ const Skills: React.VFC = () => {
 
       <div className="mt-8 pl-4">
         <p className="font-mono font-bold sm:text-base md:text-xl">Frontend</p>
-        <hr className="my-2" />
+        <hr />
         <div className="flex justify-left space-x-4 lg:py-10 lg:col-end-13">
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/typescript/typescript-original.svg" alt="Typescript" width="50" height="50" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/javascript/javascript-original.svg" alt="Javascript" width="50" height="50" />
@@ -17,7 +17,7 @@ const Skills: React.VFC = () => {
 
       <div className="mt-8 pl-4">
         <p className="font-mono font-bold sm:text-base md:text-xl">Backend</p>
-        <hr className="my-2" />
+        <hr />
         <div className="flex justify-left space-x-4 lg:py-10 lg:col-end-13">
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/python/python-original-wordmark.svg" alt="Python" width="50" height="50" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/django/django-original.svg" alt="django" width="50" height="50" />
@@ -28,7 +28,7 @@ const Skills: React.VFC = () => {
 
       <div className="mt-8 pl-4">
         <p className="font-mono font-bold sm:text-base md:text-xl">Infrastructure</p>
-        <hr className="my-2" />
+        <hr />
         <div className="flex justify-left space-x-4 lg:py-10 lg:col-end-13">
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/docker/docker-original-wordmark.svg" alt="docker" width="50" height="50" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="50" height="50" />
@@ -39,7 +39,7 @@ const Skills: React.VFC = () => {
 
       <div className="mt-8 pl-4">
         <p className="font-mono font-bold sm:text-base md:text-xl">Using Editors</p>
-        <hr className="my-2" />
+        <hr />
         <div className="flex justify-left space-x-4 lg:py-10 lg:col-end-13">
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vscode/vscode-original-wordmark.svg" alt="vscode" width="50" height="50" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/vim/vim-original.svg" alt="vim" width="50" height="50" />
