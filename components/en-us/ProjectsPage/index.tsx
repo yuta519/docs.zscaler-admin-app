@@ -1,12 +1,8 @@
 import Header from '@/components/Atoms/Header'
 import Footer from '@/components/Atoms/Footer'
-// import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
+import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
 
-interface Propos {
-  readonly project: string | [],
-}
-
-const Projects = ({ project }: Propos) => {
+const Projects: React.FC = () => {
   return (
     <>
       <Header />
@@ -15,7 +11,7 @@ const Projects = ({ project }: Propos) => {
         <div className="col-span-7 flex-col container mx-auto mt-8 pr-8 sm:pr-2 justify-center">
         </div>
         <div className="col-span-2 pr-5">
-          hogehoge
+          <RecentBlogs />
         </div>
       </div>
       <Footer />
