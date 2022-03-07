@@ -1,21 +1,24 @@
-import Header from '@/components/Atoms/Header'
-import Footer from '@/components/Atoms/Footer'
-import RecentBlogs from '@/components/en-us/IndexPage/RecentBlogs'
+import { useEffect, useState } from 'react'
 
-const Projects: React.FC = () => {
+interface Propos {
+  readonly projectName: string | string[],
+}
+
+const Projects = ({ projectName }: Propos) => {
+  const [projectDetail, setProjectDetail] = useState("")
+  useEffect(() => {
+    const projectJson = require('./projects.json')
+    setProjectDetail(projectJson)
+  }, [])
+  console.log(projectDetail)
   return (
-    <>
-      <Header />
-      <div className="grid grid-flow-col grid-cols-10">
-        <div className="col-span-1"></div>
-        <div className="col-span-7 flex-col container mx-auto mt-8 pr-8 sm:pr-2 justify-center">
-        </div>
-        <div className="col-span-2 pr-5">
-          <RecentBlogs />
-        </div>
+    <div className="grid grid-flow-col grid-cols-10">
+      <div className="col-span-1"></div>
+      <div className="col-span-7 flex-col container mx-auto mt-8 pr-8 sm:pr-2 justify-center">
       </div>
-      <Footer />
-    </>
+      <div className="col-span-2 pr-5">
+      </div>
+    </div>
   )
 }
 
