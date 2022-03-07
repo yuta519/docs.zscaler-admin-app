@@ -6,6 +6,6 @@ export default function IndexPage() {
   const { project } = router.query
 
   return (
-    <ProjectPage project={project} />
+    <ProjectPage projectName={project} />
   )
 }
