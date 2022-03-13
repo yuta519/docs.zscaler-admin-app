@@ -15,6 +15,8 @@ I created this app to learn frontend skills like Typescript, Next.js and Tailwin
 There are NO experiences to write frontend code until creating this app.
 From experiences and learnings from this app, today I have worked fullstack engineer at SaaS startup company in Japan.
 
+And this site shows my profiles, so if you are a recruiter, please check this.
+
 
 ## Design
 <img src="https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png" alt="Top Page" width="700" height="400">
