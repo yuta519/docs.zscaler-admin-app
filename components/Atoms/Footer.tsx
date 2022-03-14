@@ -20,7 +20,7 @@ const Footer: React.VFC = () => {
               <p className="pb-1 text-lg font-medium">My Projects</p>
               <ul>
                 <li>
-                  <Link href="zscaler-admin-app">zscaler-admin-app</Link>
+                  <Link href="/zscaler-admin-app">zscaler-admin-app</Link>
                 </li>
               </ul>
             </div>

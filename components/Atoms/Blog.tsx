@@ -7,10 +7,13 @@ interface Props {
 }
 
 const Blog: React.FC<Props> = ({ markdown_path }: Props) => {
+  console.log(markdown_path)
   const [article, setArticle] = useState("")
   useEffect(() => {
     (() => {
-      getBlogDetail(markdown_path, setArticle)
+      markdown_path !== undefined?
+        getBlogDetail(markdown_path, setArticle):
+        console.log("loading")
     })()
   }, [])
 

@@ -23,7 +23,7 @@ const Blogs: React.FC<Props> = ({
     <ul className="list-disc">
       {articles.map((article: Article) =>
         <li key={article.title} className="list-none py-2 md:text-base sm:text-xs">
-          <Link href={"/blogs/" + article.filename}>
+          <Link href={"/blogs/" + article.url}>
             {article.title}
           </Link>
         </li>
