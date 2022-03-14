@@ -17,7 +17,7 @@ export default function IndexPage() {
 
       <div className="grid grid-flow-col grid-cols-10">
         <div className="col-span-1"></div>
-        <div className="col-span-7 flex-col mx-auto mt-9 pr-8 justify-center">
+        <div className="flex-col mx-auto mt-9 justify-center md:col-span-7 md:pr-8 sm:col-span-10">
           <ProfileCover />
           <Icons />
           <AboutMe />
@@ -26,7 +26,7 @@ export default function IndexPage() {
           <Careers />
           <Skills />
         </div>
-        <div className="col-span-2 pr-5">
+        <div className="md:pr-5 md:col-span-2 sm:invisible">
           <RecentBlogs />
         </div>
       </div>
