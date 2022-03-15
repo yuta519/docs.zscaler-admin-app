@@ -3,20 +3,18 @@ import { useState } from "react";
 
 import Modal from "@/components/Atoms/Modal";
 
-interface elements {
+interface element {
   name: string;
   isActive: boolean;
   title: string;
   startDate: string;
 }
 
-// interface Props {
-//   readonly visibility: boolean;
-//   readonly title: string;
-//   readonly lines: Line[];
-// }
+interface Props {
+  readonly elements: element[];
+}
 
-const Chart = ({ name, isActive, title, startDate }: elements) => {
+const Chart = ({ name, isActive, title, startDate }: element) => {
   if (isActive) {
     return (
       <div className="flex md:contents">
@@ -29,7 +27,7 @@ const Chart = ({ name, isActive, title, startDate }: elements) => {
           </div>
         </div>
         <div className="bg-green-500 col-start-3 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
-          <h3 className="font-bold md:text-xl sm:text-base mb-1 text-black">
+          <h3 className="font-bold md:text-xl sm:text-base mb-1 text-gray-800">
             {name}
           </h3>
           <ul className="text-sm mb-1 text-gray-800">
@@ -66,13 +64,20 @@ const Chart = ({ name, isActive, title, startDate }: elements) => {
   }
 };
 
-const TimeFlowChart: React.FC = () => {
+const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
   return (
     <div className="flex flex-col md:grid grid-cols-12 text-gray-50 mt-3">
-      {/* <Chart name="name" isActive={true} title="title" startDate="startDate" />
-      <Chart name="name" isActive={false} title="title" startDate="startDate" /> */}
+      {elements.map((element: element) => (
+        <Chart
+          key={element.name + "-chart"}
+          name={element.name}
+          isActive={element.isActive}
+          title={element.title}
+          startDate={element.startDate}
+        />
+      ))}
 
-      <div className="flex md:contents">
+      {/* <div className="flex md:contents">
         <div className="col-start-1 col-end-3 mr-10 md:mx-auto relative">
           <div className="h-full w-6 flex items-center justify-center">
             <div className="h-full w-1 bg-green-500 pointer-events-none"></div>
@@ -209,7 +214,7 @@ const TimeFlowChart: React.FC = () => {
           </ul>
           <p className="leading-tight text-justify">July 2015 ~ June 2016</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
