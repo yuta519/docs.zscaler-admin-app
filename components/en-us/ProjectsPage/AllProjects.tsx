@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Card from "@/components/Atoms/Card"
+import link from "next/link"
 
 interface Project {
   readonly name: string,
@@ -27,10 +28,12 @@ const AllProjects = () => {
         return (
           <div className="flex container mx-auto my-8 sm:pr-2 justify-center">
             {projectList.map((project: Project) => {
+              const href = "/projects/" + project["id"]
               return (
                 <Card
                   img={project["imageUrl"]}
                   cardName={project["name"]}
+                  cardLink={href}
                   cardDescription={project["shortDescription"]}
                   tags={project["usingStacks"]}
                 />
