@@ -5,7 +5,7 @@ const Header: React.VFC = () => {
   return (
     <>
       <Head>
-        <title>My page title</title>
+        <title>Yuta Kawamura</title>
         <meta property="og:title" content="My page title" key="title" />
         <meta
           name="google-site-verification"
