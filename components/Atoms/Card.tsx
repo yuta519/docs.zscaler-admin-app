@@ -3,13 +3,14 @@ import Link from 'next/link';
 interface Props {
   readonly img: string,
   readonly cardName: string,
+  readonly cardLink: string,
   readonly cardDescription: string,
   readonly tags: string[],
 }
 
-const Card: React.FC<Props> = ({ img, cardName, cardDescription, tags }: Props) => {
+const Card: React.FC<Props> = ({ img, cardName, cardLink, cardDescription, tags }: Props) => {
   return (
-    <Link key={cardName} href="/projects/">
+    <Link key={cardName} href={cardLink}>
       <div className="flex-1 m-2 max-w-xs rounded overflow-hidden shadow-lg cursor-pointer">
         <img key={cardName} className="w-full" src={img} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
