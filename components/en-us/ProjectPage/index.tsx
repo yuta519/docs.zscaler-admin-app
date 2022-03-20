@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Atoms/Header";
 import Footer from "@/components/Atoms/Footer";
 
-interface Propos {
+interface Props {
   readonly projectName: string | string[];
 }
 
-const Projects = ({ projectName }: Propos) => {
+const Projects = ({ projectName }: Props) => {
   const [projectDetail, setProjectDetail] = useState("");
   useEffect(() => {
     const projectJson = require("./projects.json");
