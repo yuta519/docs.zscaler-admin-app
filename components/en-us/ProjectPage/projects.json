@@ -1,5 +1,6 @@
 {"projects" : [
     {
+       "id": "yuta519.github",
        "name":"yuta519.github.io (This website)",
        "shortDescription":"My personal web site",
        "description":"My profile site. Including not only profile, but also blogs I wrote.",
@@ -8,6 +9,7 @@
        "relatedBlogs": [""]
     },
     {
+      "id": "notion_api",
       "name":"Notion API SDK",
       "shortDescription":"Notion SDK for Go",
       "description":"This is a library to use Notion API.",
@@ -16,6 +18,7 @@
       "relatedBlogs": [""]
    },
    {
+      "id": "zscaler_python",
       "name":"Zscaler Python SDK",
       "shortDescription":"Zscaler SDK for Python",
       "description":"This is a library to use Zsclaer Internet Access API.",
@@ -24,6 +27,7 @@
       "relatedBlogs": [""]
    },
    {
+      "id": "zscaler_go",
       "name":"Zscaler Go SDK",
       "shortDescription":"Zscaler SDK for Go",
       "description":"This is a library to use Zsclaer Internet Access API.",

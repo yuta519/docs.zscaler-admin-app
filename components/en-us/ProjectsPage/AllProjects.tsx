@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import Card from "@/components/Atoms/Card"
-import link from "next/link"
 
 interface Project {
   readonly name: string,
