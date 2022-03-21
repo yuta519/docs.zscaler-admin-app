@@ -21,38 +21,38 @@ const Careers: React.VFC = () => {
     name: string;
     isActive: boolean;
     title: string;
-    startDate: string;
+    duration: string;
   }[] = [
     {
       name: "Innoscouter, Inc. (SideWork)",
       isActive: true,
       title: "Fullstack Engineer (both Frontend and Backend)",
-      startDate: "Nov 2021 ~ ",
+      duration: "Nov 2021 ~ ",
     },
     {
       name: "SoftBank Corp (MainWork)",
       isActive: true,
       title: "Security & Backend Engineer",
-      startDate: "January 2021 ~",
+      duration: "January 2021 ~",
     },
 
     {
       name: "QuickWork, Inc. (SideWork)",
       isActive: false,
       title: "Backend Engineer",
-      startDate: "July 2021 ~ November 2021",
+      duration: "July 2021 ~ November 2021",
     },
     {
       name: "ITOCHU Techno-Solutions Corporation",
       isActive: false,
       title: "Security, Sales & Backend Engineer",
-      startDate: "April 2017 ~ December 2020",
+      duration: "April 2017 ~ December 2020",
     },
     {
       name: "Interspace Co.,Ltd (Internship)",
       isActive: false,
       title: "Backend Engineer",
-      startDate: "July 2015 ~ June 2016",
+      duration: "July 2015 ~ June 2016",
     },
   ];
 

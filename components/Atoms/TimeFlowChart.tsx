@@ -7,14 +7,14 @@ interface element {
   name: string;
   isActive: boolean;
   title: string;
-  startDate: string;
+  duration: string;
 }
 
 interface Props {
   readonly elements: element[];
 }
 
-const Chart = ({ name, isActive, title, startDate }: element) => {
+const Chart = ({ name, isActive, title, duration }: element) => {
   if (isActive) {
     return (
       <div className="flex md:contents">
@@ -34,7 +34,7 @@ const Chart = ({ name, isActive, title, startDate }: element) => {
             <li className="md:text-base sm:text-xs">{title}</li>
           </ul>
           <p className="leading-tight font-semibold text-justify w-full text-gray-600">
-            {startDate}
+            {duration}
           </p>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Chart = ({ name, isActive, title, startDate }: element) => {
           <ul className="text-sm mb-1 text-gray-400">
             <li className="md:text-base sm:text-xs">{title}</li>
           </ul>
-          <p className="leading-tight text-justify">{startDate}</p>
+          <p className="leading-tight text-justify">{duration}</p>
         </div>
       </div>
     );
@@ -74,7 +74,7 @@ const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
             name={element.name}
             isActive={element.isActive}
             title={element.title}
-            startDate={element.startDate}
+            duration={element.duration}
           />
           <Modal visibility={false} title={element.name} />
         </>
