@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 
-interface Line {
-  emoji: string;
-  description: string;
-}
-
 interface Props {
   readonly visibility: boolean;
   readonly title: string;
-  readonly lines: Line[];
 }
 
-const Modal: React.FC<Props> = ({ visibility, title, lines }: Props) => {
+const Modal: React.FC<Props> = ({ visibility, title }: Props) => {
   if (visibility) {
     return (
       <div
@@ -40,7 +34,7 @@ const Modal: React.FC<Props> = ({ visibility, title, lines }: Props) => {
                     className="text-lg leading-6 font-medium text-gray-900"
                     id="modal-title"
                   >
-                    Deactivate account
+                    {title}
                   </h3>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
