@@ -1,25 +1,29 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
-interface Propos {
-  readonly projectName: string | string[],
+import Header from "@/components/Atoms/Header";
+import Footer from "@/components/Atoms/Footer";
+import ProjectDetail from "@/components/en-us/ProjectPage/ProjectDetail";
+
+interface Props {
+  readonly projectName: string | string[];
 }
 
-const Projects = ({ projectName }: Propos) => {
-  const [projectDetail, setProjectDetail] = useState("")
+const Projects = ({ projectName }: Props) => {
+  const [projectDetail, setProjectDetail] = useState();
   useEffect(() => {
-    const projectJson = require('./projects.json')
-    setProjectDetail(projectJson)
-  }, [])
-  console.log(projectDetail)
+    const projectJson = require("./projects.json");
+    const project = projectJson.find(
+      (projects: { id: string | string[] }) => projects.id == projectName
+    );
+    setProjectDetail(project);
+  }, []);
   return (
-    <div className="grid grid-flow-col grid-cols-10">
-      <div className="col-span-1"></div>
-      <div className="col-span-7 flex-col container mx-auto mt-8 pr-8 sm:pr-2 justify-center">
-      </div>
-      <div className="col-span-2 pr-5">
-      </div>
-    </div>
-  )
-}
+    <>
+      <Header />
+      <ProjectDetail projectDetail={projectDetail} />
+      <Footer />
+    </>
+  );
+};
 
-export default Projects
+export default Projects;
