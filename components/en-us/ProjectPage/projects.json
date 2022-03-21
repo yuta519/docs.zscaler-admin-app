@@ -1,21 +1,21 @@
-{"projects" : [
-    {
-       "id": "yuta519.github",
-       "name":"yuta519.github.io (This website)",
-       "shortDescription":"My personal web site",
-       "description":"My profile site. Including not only profile, but also blogs I wrote.",
-       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png",
-       "usingStacks": ["Typescript", "Next.js"],
-       "relatedBlogs": [""]
-    },
-    {
-      "id": "notion_api",
-      "name":"Notion API SDK",
-      "shortDescription":"Notion SDK for Go",
-      "description":"This is a library to use Notion API.",
-      "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Notion_app_logo.png",
-      "usingStacks": ["Go", "Notion API"],
+[
+   {
+      "id": "yuta519.github",
+      "name":"yuta519.github.io (This website)",
+      "shortDescription":"My personal web site",
+      "description":"My profile site. Including not only profile, but also blogs I wrote.",
+      "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png",
+      "usingStacks": ["Typescript", "Next.js"],
       "relatedBlogs": [""]
+   },
+   {
+   "id": "notion_api",
+   "name":"Notion API SDK",
+   "shortDescription":"Notion SDK for Go",
+   "description":"This is a library to use Notion API.",
+   "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Notion_app_logo.png",
+   "usingStacks": ["Go", "Notion API"],
+   "relatedBlogs": [""]
    },
    {
       "id": "zscaler_python",
@@ -35,5 +35,4 @@
       "usingStacks": ["Go", "Zscaler"],
       "relatedBlogs": [""]
    }
-  ]
- }
+]
