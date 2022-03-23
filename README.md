@@ -27,3 +27,8 @@ And this site shows my profiles, so if you are a recruiter, please check this.
   - So at first I had no ideas how to deploy my app.
   - Finally I decided to choose github pages because it is easy to deploy and I often use github so no warries.
   - In the near future, it is plan to move vercel from github pages.
+
+- Career Modal
+  - By clicking career blocks, page shows a career modal
+  - It was difficult to create modal by using tailwind css.
+  - Also managing states were difficult.
