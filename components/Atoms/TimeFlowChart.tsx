@@ -17,19 +17,23 @@ interface Props {
 }
 
 const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
-  const [selectedCareer, setSelectedCareer] = useState("");
+  const [selectedCareer, setSelectedCareer] = useState([]);
+  const [selectedCareerIcon, setselectedCareerIcon] = useState([]);
   const [modalVisibility, setModalVisibility] = useState(false);
 
   const handleOpenCareerDialog = (modalTitle: string) => {
     setModalVisibility(true);
-    setSelectedCareer(modalTitle);
+    setSelectedCareer(
+      elements.filter((elelment) => {
+        return elelment.name === modalTitle;
+      })
+    );
   };
 
   const handleCloseCareerDialog = () => {
     setModalVisibility(false);
-    setSelectedCareer("");
+    setSelectedCareer([]);
   };
-  console.log(elements);
 
   return (
     <div className="flex flex-col md:grid grid-cols-12 text-gray-50 mt-3">
@@ -45,8 +49,8 @@ const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
       ))}
       <Modal
         visibility={modalVisibility}
-        title={selectedCareer}
-        image="https://group.softbank/sites/default/files/assets/img/philosophy/identity/logo.svg"
+        title={selectedCareer[0] ? selectedCareer[0].name : ""}
+        image={selectedCareer[0] ? selectedCareer[0].logoSrc : ""}
         onClose={handleCloseCareerDialog}
       />
     </div>

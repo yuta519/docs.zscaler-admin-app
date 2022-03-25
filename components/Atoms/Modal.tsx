@@ -37,19 +37,9 @@ const Modal: React.FC<Props> = ({
             <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
               <div className="sm:flex sm:items-start">
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                  {image ? <img src={image} width="20%" height="20%" /> : ""}
-                  <h3
-                    className="text-lg leading-6 font-medium text-gray-900"
-                    id="modal-title"
-                  >
-                    {title}
-                  </h3>
+                  {image ? <img src={image} width="40%" height="40%" /> : ""}
                   <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Are you sure you want to deactivate your account? All of
-                      your data will be permanently removed. This action cannot
-                      be undone.
-                    </p>
+                    <p className="text-sm text-gray-500">{title}</p>
                   </div>
                 </div>
               </div>

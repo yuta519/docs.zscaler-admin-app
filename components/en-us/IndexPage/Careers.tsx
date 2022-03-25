@@ -26,7 +26,8 @@ const Careers: React.VFC = () => {
   }[] = [
     {
       name: "Innoscouter, Inc. (SideWork)",
-      logoSrc: "",
+      logoSrc:
+        "https://uploads-ssl.webflow.com/5f2a3f0114bd385b6d69f1ad/5fddc16b881adb5f7bd96daf_logo.png",
       isActive: true,
       title: "Fullstack Engineer (both Frontend and Backend)",
       duration: "Nov 2021 ~ ",
@@ -42,21 +43,23 @@ const Careers: React.VFC = () => {
 
     {
       name: "QuickWork, Inc. (SideWork)",
-      logoSrc: "",
+      logoSrc:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklrqIuBQ5ScfanpIA2byDMHVnKJWhDEeWsA&usqp=CAU",
       isActive: false,
       title: "Backend Engineer",
       duration: "July 2021 ~ November 2021",
     },
     {
       name: "ITOCHU Techno-Solutions Corporation",
-      logoSrc: "",
+      logoSrc:
+        "https://www.nanotechexpo.jp/2020/main/nano_insight_japan/images/ctc/logo_ctc.png",
       isActive: false,
       title: "Security, Sales & Backend Engineer",
       duration: "April 2017 ~ December 2020",
     },
     {
       name: "Interspace Co.,Ltd (Internship)",
-      logoSrc: "",
+      logoSrc: "https://www.interspace.ne.jp/img/common/header/IS_LOGO.svg",
       isActive: false,
       title: "Backend Engineer",
       duration: "July 2015 ~ June 2016",
