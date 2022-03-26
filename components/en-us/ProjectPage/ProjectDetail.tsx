@@ -17,9 +17,6 @@ interface Props {
 }
 
 const ProjectDetail = ({ projectDetail }: Props) => {
-  if (projectDetail === undefined) {
-  }
-  console.log(projectDetail);
   return (
     <div className="grid grid-flow-col grid-cols-10">
       <div className="md:col-span-1 md:block sm:hidden sm:invisible"></div>
