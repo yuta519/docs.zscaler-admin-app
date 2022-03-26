@@ -9,6 +9,7 @@ interface element {
   logoSrc: string;
   isActive: boolean;
   title: string;
+  modalElements: string[];
   duration: string;
 }
 
@@ -18,7 +19,6 @@ interface Props {
 
 const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
   const [selectedCareer, setSelectedCareer] = useState([]);
-  const [selectedCareerIcon, setselectedCareerIcon] = useState([]);
   const [modalVisibility, setModalVisibility] = useState(false);
 
   const handleOpenCareerDialog = (modalTitle: string) => {
@@ -49,8 +49,9 @@ const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
       ))}
       <Modal
         visibility={modalVisibility}
-        title={selectedCareer[0] ? selectedCareer[0].name : ""}
+        name={selectedCareer[0] ? selectedCareer[0].name : ""}
         image={selectedCareer[0] ? selectedCareer[0].logoSrc : ""}
+        details={selectedCareer[0] ? selectedCareer[0].modalElements : []}
         onClose={handleCloseCareerDialog}
       />
     </div>

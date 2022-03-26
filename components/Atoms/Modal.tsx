@@ -2,15 +2,17 @@ import React, { useState } from "react";
 
 interface Props {
   readonly visibility: boolean;
-  readonly title: string;
+  readonly name: string;
   readonly image: string;
+  readonly details: string[];
   readonly onClose: () => void;
 }
 
 const Modal: React.FC<Props> = ({
   visibility,
-  title,
+  name,
   image,
+  details,
   onClose,
 }: Props) => {
   if (visibility) {
@@ -37,10 +39,16 @@ const Modal: React.FC<Props> = ({
             <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
               <div className="sm:flex sm:items-start">
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                  {image ? <img src={image} width="40%" height="40%" /> : ""}
-                  <div className="mt-2">
-                    <p className="text-sm text-gray-500">{title}</p>
-                  </div>
+                  <img src={image} width="40%" height="40%" />
+                  <p className="text-base text-gray-500 mt-5">
+                    <ul>
+                      {details.map((detail) => (
+                        <li key={detail} className="mt-1">
+                          {detail}
+                        </li>
+                      ))}
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
