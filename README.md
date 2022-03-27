@@ -22,13 +22,18 @@ And this site shows my profiles, so if you are a recruiter, please check this.
 <img src="https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png" alt="Top Page" width="700" height="400">
 
 ## What I struggled
+- Using new stacks
+  - This repository uses Next.js and TailwindCSS. But I have no experiences about these skills in my career.
+  - So Why does this adopt new technologies? This is because Next.js and TailwindCSS are leading libraries and frameworks. These will be standard to create Web app in next 3 years.
+  - I started to read documents hard and finally created this project.
+
 - Creating a whole frontend application
-  - I had never experienced to develop a frontend app from scratch. Just modifiied some problems.
-  - So at first I had no ideas how to deploy my app.
-  - Finally I decided to choose github pages because it is easy to deploy and I often use github so no warries.
-  - In the near future, it is plan to move vercel from github pages.
+  - I had never experienced to develop a frontend app from scratch. I have modified existing features and add new ones in team projects.
+  - So I had no ideas how to create and deploy my app at first .
+  - From many readings, finally I decided to choose github pages.  Because it looks easy to deploy and I often use github.
+  - Soon, I plant to move this project from github pages to  vercel. After migration, I will post a blog!
 
 - Career Modal
-  - By clicking career blocks, page shows a career modal
+  - By clicking career blocks, page shows a career modal.
   - It was difficult to create modal by using tailwind css.
   - Also managing states were difficult.
