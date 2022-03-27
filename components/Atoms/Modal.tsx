@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 interface Props {
   readonly visibility: boolean;
-  readonly name: string;
   readonly image: string;
   readonly details: string[];
   readonly onClose: () => void;
