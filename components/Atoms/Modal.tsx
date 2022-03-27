@@ -40,15 +40,13 @@ const Modal: React.FC<Props> = ({
               <div className="sm:flex sm:items-start">
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                   <img src={image} width="40%" height="40%" />
-                  <p className="text-base text-gray-500 mt-5">
-                    <ul>
-                      {details.map((detail) => (
-                        <li key={detail} className="mt-1">
-                          {detail}
-                        </li>
-                      ))}
-                    </ul>
-                  </p>
+                  <ul className="text-base text-gray-500 mt-5">
+                    {details.map((detail) => (
+                      <li key={detail} className="mt-1">
+                        {detail}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>
