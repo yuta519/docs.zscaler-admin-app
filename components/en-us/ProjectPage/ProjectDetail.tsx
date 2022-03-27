@@ -25,19 +25,31 @@ const ProjectDetail = ({ projectDetail }: Props) => {
           "loading"
         ) : (
           <div className="p-4">
-            <p className="font-mono font-bold sm:text-base md:text-3xl">
+            <p className="font-mono font-bold sm:text-base md:text-2xl">
               {projectDetail.name}
             </p>
             <hr className="my-2" />
 
-            <div className="mt-8 pl-4">
-              <p className="font-mono font-bold sm:text-xl md:text-2xl">
+            <div className="mt-5 pl-4">
+              <p className="font-mono font-bold sm:text-xl md:text-xl">
                 Description
               </p>
               <hr />
-              <div className="flex justify-left space-x-4 lg:py-10 lg:col-end-13 sm:text-base md:text-xl">
+              <div className="flex justify-left space-x-4 lg:py-5 lg:col-end-13 sm:text-sm md:text-base">
                 {projectDetail.description}
               </div>
+            </div>
+            <div className="mt-8 pl-4">
+              <p className="font-mono font-bold sm:text-xl md:text-2xl">
+                Stacks
+              </p>
+              <hr />
+
+              <ul className="lg:py-5 lg:col-end-13 sm:text-sm md:text-base">
+                {projectDetail.usingStacks.map((stack) => {
+                  return <li>{stack}</li>;
+                })}
+              </ul>
             </div>
 
             <div className="mt-8 pl-4">
@@ -50,22 +62,9 @@ const ProjectDetail = ({ projectDetail }: Props) => {
                   key={projectDetail.imageUrl}
                   className="w-full"
                   src={projectDetail.imageUrl}
-                  alt="Sunset in the mountains"
+                  alt={projectDetail.name}
                 />
               </div>
-            </div>
-
-            <div className="mt-8 pl-4">
-              <p className="font-mono font-bold sm:text-xl md:text-2xl">
-                Stacks
-              </p>
-              <hr />
-
-              <ul className="lg:py-10 lg:col-end-13 sm:text-base md:text-xl">
-                {projectDetail.usingStacks.map((stack) => {
-                  return <li>{stack}</li>;
-                })}
-              </ul>
             </div>
           </div>
         )}

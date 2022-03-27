@@ -10,7 +10,6 @@ interface Props {
 
 const Modal: React.FC<Props> = ({
   visibility,
-  name,
   image,
   details,
   onClose,

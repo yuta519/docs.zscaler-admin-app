@@ -49,7 +49,6 @@ const TimeFlowChart: React.FC<Props> = ({ elements }: Props) => {
       ))}
       <Modal
         visibility={modalVisibility}
-        name={selectedCareer[0] ? selectedCareer[0].name : ""}
         image={selectedCareer[0] ? selectedCareer[0].logoSrc : ""}
         details={selectedCareer[0] ? selectedCareer[0].modalElements : []}
         onClose={handleCloseCareerDialog}
