@@ -3,16 +3,16 @@
       "id": "yuta519.github",
       "name":"yuta519.github.io (This website)",
       "shortDescription":"My personal web site",
-      "description":"My profile site. Including not only profile, but also blogs I wrote.",
+      "description":"My profile site. Including not only profile, but also blogs I wrote. This web site uses newer techniques like Next.js, Typescript and TailwindCSS. I choose next stacks that will be main streams I believe.",
       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png",
-      "usingStacks": ["Typescript", "Next.js"],
+      "usingStacks": ["Typescript", "Next.js", "TailwindCSS"],
       "relatedBlogs": [""]
    },
    {
    "id": "notion_api",
    "name":"Notion API SDK",
    "shortDescription":"Notion SDK for Go",
-   "description":"This is a library to use Notion API.",
+   "description":"This is a library to use Notion API. In this web site, there are some blogs. And I wrote these blogs with Notion. So I created this library for exporting Notion pages automatically. By using this library, it is efficient to deploy blogs from Notion to this web site",
    "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Notion_app_logo.png",
    "usingStacks": ["Go", "Notion API"],
    "relatedBlogs": [""]
@@ -21,7 +21,7 @@
       "id": "zscaler_python",
       "name":"Zscaler Python SDK",
       "shortDescription":"Zscaler SDK for Python",
-      "description":"This is a library to use Zsclaer Internet Access API.",
+      "description":"This is a library to use Zsclaer Internet Access API. In my Japanese career, there are a lot of opportunities to use 3rd pary security products. One of those is Zscaler. To autmate some tasks, I created this library.",
       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Zscaler.png",
       "usingStacks": ["Python", "Zscaler"],
       "relatedBlogs": [""]
