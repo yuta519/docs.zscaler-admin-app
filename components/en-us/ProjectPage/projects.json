@@ -9,13 +9,40 @@
       "relatedBlogs": [""]
    },
    {
-   "id": "notion_api",
-   "name":"Notion API SDK",
-   "shortDescription":"Notion SDK for Go",
-   "description":"This is a library to use Notion API. In this web site, there are some blogs. And I wrote these blogs with Notion. So I created this library for exporting Notion pages automatically. By using this library, it is efficient to deploy blogs from Notion to this web site",
-   "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Notion_app_logo.png",
-   "usingStacks": ["Go", "Notion API"],
-   "relatedBlogs": [""]
+      "id": "innoscouter",
+      "name":"Innoscouter (CRM)",
+      "shortDescription":"It's a SaaS to manage open innovation.",
+      "description":"It's a SaaS to manage open innovation.",
+      "imageUrl":"https://uploads-ssl.webflow.com/5f2a3f0114bd385b6d69f1ad/5fddc16b18a0bbbd596cdd88_img_screenshot_01.png",
+      "usingStacks": ["Typescript", "React", "MaterialUI", "Ruby", "Hanami", "MySQL", "AWS"],
+      "relatedBlogs": [""]
+   },
+   {
+      "id": "salesnowdb",
+      "name":"salesnowdb",
+      "shortDescription":"It's a SaaS to show Japanese Company info.",
+      "description":"It's a SaaS to show Japanese Company info.",
+      "imageUrl":"https://quickwork.jp/static/biztrox/images/db_display.png",
+      "usingStacks": ["Python", "FastAPI", "Pytest", "PostgreSQL", "AWS"],
+      "relatedBlogs": [""]
+   },
+   {
+      "id": "mofmo",
+      "name":"Mofmo",
+      "shortDescription":"Curation site for pets articles",
+      "description":"This site curates a lot of information and posts articles for pets. In Japan, 2015 is a big year for pets The trend of having cats has come. And many SNS posted a lot of information for cats and dogs. So we created this site to curate information.",
+      "imageUrl":"https://www.interspace.ne.jp/wp-content/uploads/2015/10/mofmo-desktop.png",
+      "usingStacks": ["PHP", "Laravel", "MySQL", "Vagrant"],
+      "relatedBlogs": [""]
+   },
+   {
+      "id": "notion_api",
+      "name":"Notion API SDK",
+      "shortDescription":"Notion SDK for Go",
+      "description":"This is a library to use Notion API. In this web site, there are some blogs. And I wrote these blogs with Notion. So I created this library for exporting Notion pages automatically. By using this library, it is efficient to deploy blogs from Notion to this web site",
+      "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Notion_app_logo.png",
+      "usingStacks": ["Go", "Notion API"],
+      "relatedBlogs": [""]
    },
    {
       "id": "zscaler_python",
