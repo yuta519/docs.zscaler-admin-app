@@ -22,7 +22,7 @@ And this site shows my profiles, so if you are a recruiter, please check this.
 <img src="https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png" alt="Top Page" width="700" height="400">
 
 ## What I struggled
-- Using new stacks
+- Using newer stacks
   - This repository uses Next.js and TailwindCSS. But I have no experiences about these skills in my career.
   - So Why does this adopt new technologies? This is because Next.js and TailwindCSS are leading libraries and frameworks. These will be standard to create Web app in next 3 years.
   - I started to read documents hard and finally created this project.
