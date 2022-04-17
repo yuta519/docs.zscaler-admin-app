@@ -29,7 +29,7 @@ const AllProjects = () => {
     <>
       {projects.map((projectList: Project[]) => {
         return (
-          <div className="flex container mx-auto my-8 sm:pr-2 justify-center">
+          <div className="md:flex sm-flex container mx-auto my-8 sm:pr-2 justify-center">
             {projectList.map((project: Project) => {
               return (
                 <Card
