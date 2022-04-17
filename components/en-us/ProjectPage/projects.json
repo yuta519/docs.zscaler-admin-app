@@ -13,7 +13,7 @@
       "id": "innoscouter",
       "name":"Innoscouter (CRM)",
       "shortDescription":"It's a SaaS to manage open innovation.",
-      "description":"It's a SaaS to manage open innovation.",
+      "description":"SaaS to manage open innovation. In Jaapanese companise, sharing knowledge between departments is a big problem. Each departments are isolated and don't share information. So Innoscouter starts to develop this service. In this SaaS, users can search candidate companies as business partners and record activies like meetings, negociations etc. And these information are not closed one department, but are open to other departments which search same companies.",
       "imageUrl":"https://uploads-ssl.webflow.com/5f2a3f0114bd385b6d69f1ad/5fddc16b18a0bbbd596cdd88_img_screenshot_01.png",
       "usingStacks": ["Typescript", "React", "MaterialUI", "Ruby", "Hanami", "MySQL", "AWS"],
       "relatedBlogs": [""],
@@ -21,7 +21,7 @@
    },
    {
       "id": "salesnowdb",
-      "name":"salesnowdb",
+      "name":"SalesNow DB",
       "shortDescription":"It's a SaaS to show Japanese Company info.",
       "description":"It's a SaaS to show Japanese Company info.",
       "imageUrl":"https://quickwork.jp/static/biztrox/images/db_display.png",
