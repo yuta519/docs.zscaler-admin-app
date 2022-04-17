@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import Card from "@/components/Atoms/Card";
 
+interface Props {
+  readonly projectType: string;
+}
+
 interface Project {
   readonly name: string;
   readonly shortDescription: string;
@@ -8,6 +12,7 @@ interface Project {
   readonly imageUrl: string;
   readonly relatedBlogs: string[];
   readonly usingStacks: string[];
+  readonly projectType: string;
 }
 
 const split = (array: number[], num: number) => {
@@ -18,15 +23,23 @@ const split = (array: number[], num: number) => {
   );
 };
 
-const AllProjects = () => {
+const AllProjects = ({ projectType }: Props) => {
   const [projects, setProjects] = useState([]);
+  const [type, setType] = useState("work");
+  const projectJson = require("../ProjectPage/projects.json");
+
   useEffect(() => {
-    const projectJson = require("../ProjectPage/projects.json");
-    setProjects(split(projectJson, 3));
+    const filteredProjectJson = projectJson.filter((project) => {
+      return project.projectType === projectType;
+    });
+    setProjects(split(filteredProjectJson, 3));
   }, []);
+  console.log("current projectType: ", projectType);
+  console.log("current type: ", type);
 
   return (
     <>
+      {type !== projectType ? setType(projectType) : console.log(type)}
       {projects.map((projectList: Project[]) => {
         return (
           <div className="md:flex sm-flex container mx-auto my-8 sm:pr-2 justify-center">

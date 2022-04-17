@@ -6,7 +6,8 @@
       "description":"My profile site. Including not only profile, but also blogs I wrote. This web site uses newer techniques like Next.js, Typescript and TailwindCSS. I choose next stacks that will be main streams I believe.",
       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/yuta519.github.io.png",
       "usingStacks": ["Typescript", "Next.js", "TailwindCSS"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "private"
    },
    {
       "id": "innoscouter",
@@ -15,7 +16,8 @@
       "description":"It's a SaaS to manage open innovation.",
       "imageUrl":"https://uploads-ssl.webflow.com/5f2a3f0114bd385b6d69f1ad/5fddc16b18a0bbbd596cdd88_img_screenshot_01.png",
       "usingStacks": ["Typescript", "React", "MaterialUI", "Ruby", "Hanami", "MySQL", "AWS"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "work"
    },
    {
       "id": "salesnowdb",
@@ -24,7 +26,8 @@
       "description":"It's a SaaS to show Japanese Company info.",
       "imageUrl":"https://quickwork.jp/static/biztrox/images/db_display.png",
       "usingStacks": ["Python", "FastAPI", "Pytest", "PostgreSQL", "AWS"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "work"
    },
    {
       "id": "mofmo",
@@ -33,7 +36,8 @@
       "description":"This site curates a lot of information and posts articles for pets. In Japan, 2015 is a big year for pets The trend of having cats has come. And many SNS posted a lot of information for cats and dogs. So we created this site to curate information.",
       "imageUrl":"https://www.interspace.ne.jp/wp-content/uploads/2015/10/mofmo-desktop.png",
       "usingStacks": ["PHP", "Laravel", "MySQL", "Vagrant"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "work"
    },
    {
       "id": "notion_api",
@@ -42,7 +46,8 @@
       "description":"This is a library to use Notion API. In this web site, there are some blogs. And I wrote these blogs with Notion. So I created this library for exporting Notion pages automatically. By using this library, it is efficient to deploy blogs from Notion to this web site",
       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Notion_app_logo.png",
       "usingStacks": ["Go", "Notion API"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "private"
    },
    {
       "id": "zscaler_python",
@@ -51,7 +56,8 @@
       "description":"This is a library to use Zsclaer Internet Access API. In my Japanese career, there are a lot of opportunities to use 3rd pary security products. One of those is Zscaler. To autmate some tasks, I created this library.",
       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Zscaler.png",
       "usingStacks": ["Python", "Zscaler"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "private"
    },
    {
       "id": "zscaler_go",
@@ -60,6 +66,7 @@
       "description":"This is a library to use Zsclaer Internet Access API.",
       "imageUrl":"https://raw.githubusercontent.com/yuta519/yuta519.github.io/main/public/projects/Zscaler.png",
       "usingStacks": ["Go", "Zscaler"],
-      "relatedBlogs": [""]
+      "relatedBlogs": [""],
+      "projectType": "private"
    }
 ]
