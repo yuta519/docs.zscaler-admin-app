@@ -33,13 +33,11 @@ const AllProjects = ({ projectType }: Props) => {
       return project.projectType === projectType;
     });
     setProjects(split(filteredProjectJson, 3));
-  }, []);
-  console.log("current projectType: ", projectType);
-  console.log("current type: ", type);
+  }, [projectType]);
 
   return (
     <>
-      {type !== projectType ? setType(projectType) : console.log(type)}
+      {type !== projectType ? setType(projectType) : ""}
       {projects.map((projectList: Project[]) => {
         return (
           <div className="md:flex sm-flex container mx-auto my-8 sm:pr-2 justify-center">
