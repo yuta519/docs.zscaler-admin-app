@@ -25,7 +25,6 @@ const split = (array: number[], num: number) => {
 
 const AllProjects = ({ projectType }: Props) => {
   const [projects, setProjects] = useState([]);
-  const [type, setType] = useState("work");
   const projectJson = require("../ProjectPage/projects.json");
 
   useEffect(() => {
@@ -37,7 +36,6 @@ const AllProjects = ({ projectType }: Props) => {
 
   return (
     <>
-      {type !== projectType ? setType(projectType) : ""}
       {projects.map((projectList: Project[]) => {
         return (
           <div className="md:flex sm-flex container mx-auto my-8 sm:pr-2 justify-center">
