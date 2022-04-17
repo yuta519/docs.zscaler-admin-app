@@ -6,7 +6,7 @@ import AllProjects from "@/components/en-us/ProjectsPage/AllProjects";
 import ProjectTypeTab from "@/components/en-us/ProjectsPage/ProjectTypeTab";
 
 const Projects: React.FC = () => {
-  const [projectType, setProjectType] = useState("");
+  const [projectType, setProjectType] = useState("private");
 
   const toggleProjectTypeTab = (type: string) => {
     setProjectType(type);
