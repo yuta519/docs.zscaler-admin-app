@@ -33,6 +33,7 @@ jobs:
 
       - run: yarn install --frozen-lockfile
       - run: yarn build
+      - run: yarn postbuild
       - run: yarn export
       - run: touch ./out/.nojekyll
 
