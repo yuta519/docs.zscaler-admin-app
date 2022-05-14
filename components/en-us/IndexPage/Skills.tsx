@@ -60,14 +60,14 @@ const Skills: React.VFC = () => {
             height="7%"
           />
           <img
-            src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/go/go-original.svg"
-            alt="go"
+            src="https://hanamirb.org/images/logo.png"
+            alt="hanami"
             width="7%"
             height="7%"
           />
           <img
-            src="https://hanamirb.org/images/logo.png"
-            alt="hanami"
+            src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/go/go-original.svg"
+            alt="go"
             width="7%"
             height="7%"
           />
