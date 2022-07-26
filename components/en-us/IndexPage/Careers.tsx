@@ -42,6 +42,21 @@ const Careers: React.VFC = () => {
       duration: "Nov 2021 ~ ",
     },
     {
+      name: "TechSuite, Inc. (SideWork)",
+      logoSrc: "",
+      isActive: true,
+      title: "Fullstack Engineer (both Frontend and Backend)",
+      modalElements: [
+        "Developing SaaS to analyze Dev tools(Jira, backlog...)",
+        "Fullstack Developer (both Frontend and Backend)",
+        "Frontend: Next.js/ Typescript/ MaterialUI/ Styled Components",
+        "Backedn: Python / Django",
+        "Infra: MySQL / Docker / GCP",
+        "July 2022 ~ ",
+      ],
+      duration: "July 2022 ~ ",
+    },
+    {
       name: "SoftBank Corp (MainWork)",
       logoSrc:
         "https://group.softbank/sites/default/files/assets/img/philosophy/identity/logo.svg",
@@ -56,7 +71,6 @@ const Careers: React.VFC = () => {
       ],
       duration: "January 2021 ~",
     },
-
     {
       name: "QuickWork, Inc. (SideWork)",
       logoSrc:
