@@ -43,13 +43,13 @@ const Careers: React.VFC = () => {
     },
     {
       name: "TechSuite, Inc. (SideWork)",
-      logoSrc: "",
+      logoSrc: "https://static.wixstatic.com/media/ab9bfb_35f4b888c2fa47e695fc0d6608c9ad4e~mv2.png/v1/fill/w_164,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/brandmark-design%20(2).png",
       isActive: true,
       title: "Fullstack Engineer (both Frontend and Backend)",
       modalElements: [
         "Developing SaaS to analyze Dev tools(Jira, backlog...)",
         "Fullstack Developer (both Frontend and Backend)",
-        "Frontend: Next.js/ Typescript/ MaterialUI/ Styled Components",
+        "Frontend: Next.js/ Typescript",
         "Backedn: Python / Django",
         "Infra: MySQL / Docker / GCP",
         "July 2022 ~ ",
@@ -60,7 +60,7 @@ const Careers: React.VFC = () => {
       name: "SoftBank Corp (MainWork)",
       logoSrc:
         "https://group.softbank/sites/default/files/assets/img/philosophy/identity/logo.svg",
-      isActive: true,
+      isActive: false,
       title: "Security & Backend Engineer",
       modalElements: [
         "Developing toB Security Managed Services",
@@ -69,7 +69,7 @@ const Careers: React.VFC = () => {
         "Infra: MySQL / Docker / Linux / Pacemaker / ",
         "January 2021 ~",
       ],
-      duration: "January 2021 ~",
+      duration: "January 2021 ~ September 2022",
     },
     {
       name: "QuickWork, Inc. (SideWork)",
