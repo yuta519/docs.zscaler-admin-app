@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from 'next/image';
 
 interface Props {
   readonly visibility: boolean;
@@ -37,7 +38,7 @@ const Modal: React.FC<Props> = ({
             <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
               <div className="sm:flex sm:items-start">
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                  <img src={image} width="40%" height="40%" />
+                  <Image src={image} width="250px" height="35px"  />
                   <ul className="text-base text-gray-500 mt-5">
                     {details.map((detail) => (
                       <li key={detail} className="mt-1">

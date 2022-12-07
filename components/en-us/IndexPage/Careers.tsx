@@ -1,6 +1,7 @@
 import NormalLists from "@/components/Atoms/NormalLists";
 import TimeFlowChart from "@/components/Atoms/TimeFlowChart";
 
+
 const Careers: React.VFC = () => {
   const title: string = "Careers";
   const lines: {emoji: string; description: string}[] = [
@@ -90,7 +91,7 @@ const Careers: React.VFC = () => {
       {
         name: "QuickWork, Inc. (SideWork)",
         logoSrc:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklrqIuBQ5ScfanpIA2byDMHVnKJWhDEeWsA&usqp=CAU",
+          "https://quickwork.jp/static/image/logo.svg",
         isActive: false,
         title: "Backend Engineer",
         modalElements: [
@@ -104,8 +105,7 @@ const Careers: React.VFC = () => {
       },
       {
         name: "ITOCHU Techno-Solutions Corporation",
-        logoSrc:
-          "https://www.ctc-g.co.jp/solutions/dx/assets/images/logo_ctc.png",
+        logoSrc: "https://www.ctc-g.co.jp/common/image/logo-header-pc.svg",
         isActive: false,
         title: "Security, Sales & Backend Engineer",
         modalElements: [
