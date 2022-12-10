@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@headlessui/react": "^1.7.5",
     "@material-ui/icons": "^4.11.2",
     "autoprefixer": "^10.3.7",
     "axios": "^0.25.0",
