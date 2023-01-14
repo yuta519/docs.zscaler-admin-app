@@ -6,7 +6,7 @@ const Careers: React.VFC = () => {
   const lines: {emoji: string; description: string}[] = [
     {
       emoji: "computer",
-      description: "Backend Engineer - 2 years",
+      description: "Backend Engineer - 3 years",
     },
     {
       emoji: "building_construction",
@@ -32,7 +32,7 @@ const Careers: React.VFC = () => {
         isActive: true,
         title: "Fullstack Engineer (Both Frontend and Backend)",
         modalElements: [
-          "Developing SaaS for big companies (CRM)",
+          "Developing SaaS for Enterprise companies (CRM)",
           "Fullstack Developer (both Frontend and Backend)",
           "Frontend: React / Typescript / MaterialUI / Styled Components",
           "Backedn: Ruby Hanami",
@@ -48,7 +48,7 @@ const Careers: React.VFC = () => {
         isActive: true,
         title: "Backend Engineer",
         modalElements: [
-          // "Developing SaaS for big companies (CRM)",
+          "Developing SaaS for Clinic",
           // "Fullstack Developer (both Frontend and Backend)",
           // "Frontend: React / Typescript / MaterialUI / Styled Components",
           // "Backedn: Ruby Hanami",
