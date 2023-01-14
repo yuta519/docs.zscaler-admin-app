@@ -42,6 +42,22 @@ const Careers: React.VFC = () => {
         duration: "Nov 2021 ~ ",
       },
       {
+        name: "Wrusty, Inc.",
+        logoSrc:
+          "https://scontent-nrt1-1.xx.fbcdn.net/v/t39.30808-6/279751888_471443201427722_5822133010738871639_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GLhpHEIPZ5IAX9TzpxE&_nc_ht=scontent-nrt1-1.xx&oh=00_AfABdpWZPWLCKtHAG4FCt9i1Awm7qS8kIU9vAEpY3m9EZw&oe=63C6C0C2",
+        isActive: true,
+        title: "Backend Engineer",
+        modalElements: [
+          // "Developing SaaS for big companies (CRM)",
+          // "Fullstack Developer (both Frontend and Backend)",
+          // "Frontend: React / Typescript / MaterialUI / Styled Components",
+          // "Backedn: Ruby Hanami",
+          // "Infra: MySQL / Docker / AWS",
+          "Nov 2023 ~ ",
+        ],
+        duration: "Jan 2023 ~ ",
+      },
+      {
         name: "TechSuite, Inc. (SideWork)",
         logoSrc: "https://static.wixstatic.com/media/ab9bfb_35f4b888c2fa47e695fc0d6608c9ad4e~mv2.png/v1/fill/w_164,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/brandmark-design%20(2).png",
         isActive: false,
