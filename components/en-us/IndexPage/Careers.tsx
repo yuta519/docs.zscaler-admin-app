@@ -49,9 +49,8 @@ const Careers: React.VFC = () => {
         title: "Backend Engineer",
         modalElements: [
           "Developing SaaS for Clinic",
-          // "Fullstack Developer (both Frontend and Backend)",
-          // "Frontend: React / Typescript / MaterialUI / Styled Components",
-          // "Backedn: Ruby Hanami",
+          "Backend Developer",
+          "Backedn: Python Django",
           // "Infra: MySQL / Docker / AWS",
           "Nov 2023 ~ ",
         ],
