@@ -44,7 +44,7 @@ const Careers: React.VFC = () => {
       {
         name: "Wrusty, Inc.",
         logoSrc:
-          "https://scontent-nrt1-1.xx.fbcdn.net/v/t39.30808-6/279751888_471443201427722_5822133010738871639_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GLhpHEIPZ5IAX9TzpxE&_nc_ht=scontent-nrt1-1.xx&oh=00_AfABdpWZPWLCKtHAG4FCt9i1Awm7qS8kIU9vAEpY3m9EZw&oe=63C6C0C2",
+        "https://www.atpress.ne.jp/releases/340901/logo_org.png",
         isActive: true,
         title: "Backend Engineer",
         modalElements: [
